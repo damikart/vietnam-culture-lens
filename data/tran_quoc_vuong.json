@@ -1,0 +1,562 @@
+{
+  "version": "0.1.0",
+  "sources": [
+    {
+      "id": "tqv_coso",
+      "author": "Trần Quốc Vượng",
+      "title": "Cơ sở văn hóa Việt Nam",
+      "year": 2003,
+      "type": "book"
+    }
+  ],
+  "framework": {
+    "central_opposition": {
+      "pair_1": {
+        "name": "Nông nghiệp trọng tĩnh vs Du mục trọng động",
+        "agriculture": "Phương Đông/châu thổ: tôn trọng thiên nhiên, tư duy tổng hợp/biện chứng, trọng tình/đức/văn/nữ, linh hoạt, hiếu hòa, dung hợp",
+        "nomadic": "Phương Tây/thảo nguyên: chinh phục thiên nhiên, tư duy phân tích/siêu hình, trọng lý/sức mạnh/võ/nam, nguyên tắc, hiếu thắng, độc tôn"
+      },
+      "pair_2": {
+        "name": "Nội sinh (Bản địa) vs Ngoại sinh (Ngoại lai)",
+        "endogenous": "Cơ tầng văn hóa Đông Nam Á, phức thể lúa nước",
+        "exogenous": "Giao lưu cưỡng bức hoặc tự nguyện với Trung Hoa, Ấn Độ, Phương Tây",
+        "resolution": "Tiếp biến văn hóa (Acculturation): luôn chủ động Việt hóa thay vì bị đồng hóa"
+      }
+    },
+    "culture_system": {
+      "by_components": {
+        "center": "Lối sống",
+        "satellites": ["Tín ngưỡng/tôn giáo", "Lễ hội", "Phong tục tập quán", "Nghệ thuật tạo hình", "Nghệ thuật âm thanh", "Sân khấu", "Văn chương", "Ngôn ngữ", "Kiến trúc", "Nghề thủ công"]
+      },
+      "by_survival_function": {
+        "van_hoa_san_xuat": "Nông nghiệp lúa nước, trị thủy, đê điều, làng nghề thủ công",
+        "van_hoa_vu_trang": "Sản xuất gắn chiến đấu, thạo thủy chiến, dân binh + quân binh",
+        "van_hoa_sinh_hoat": "Ăn (cơm-rau-cá), mặc (cắt tóc ngắn, xăm mình), ở (nhà sàn, nhà đất), đi (thuyền bè)"
+      },
+      "by_unesco": {
+        "tangible": "Đình, đền, chùa, miếu, lăng mộ, nhà sàn",
+        "intangible": "Âm nhạc, múa, văn chương truyền miệng, ngôn ngữ, huyền thoại, phong tục, bí quyết nghề"
+      }
+    },
+    "historical_layers": [
+      {"layer": "Tiền sử", "period": "Núi Đọ → Sơn Vi → Hòa Bình → Cách mạng nông nghiệp"},
+      {"layer": "Sơ sử", "period": "Đông Sơn / Sa Huỳnh / Đồng Nai → Văn Lang / Chămpa / Phù Nam"},
+      {"layer": "Thiên niên kỷ đầu CN", "period": "Bắc thuộc (chống Hán hóa) + Chămpa + Óc Eo"},
+      {"layer": "Tự chủ", "period": "Lý-Trần-Lê-Nguyễn (Tam giáo đồng nguyên → Nho giáo → suy thoái)"},
+      {"layer": "Pháp thuộc", "period": "1858-1945 (đứt gãy → cấu trúc lại → hiện đại hóa)"},
+      {"layer": "Hiện đại", "period": "1945-nay (kế thừa + tiếp thu tinh hoa nhân loại)"}
+    ],
+    "positioning": "Việt Nam = 'Đông Nam Á thu nhỏ' (có đủ văn hóa núi, đồng bằng, biển). Thuộc cơ tầng văn hóa Đông Nam Á, nền Văn minh thực vật sinh ra từ hệ sinh thái Nhiệt-Ẩm-Gió mùa."
+  },
+  "concepts": [
+    {
+      "id": "van_minh_thuc_vat",
+      "name_vi": "Văn minh thực vật",
+      "name_en": "Vegetal civilization",
+      "domain": "philosophy",
+      "definition": "Nền văn minh sinh ra từ hệ sinh thái phồn tạp nhiệt-ẩm-gió mùa, nơi thực vật vượt trội hơn động vật. Khái niệm mượn của P. Gourou, chỉ văn hóa lúa nước tính chất thực vật, đối lập với văn minh du mục/săn bắt thú lớn.",
+      "key_insight": "Bằng chứng khảo cổ: di chỉ hái lượm tiền sử chứa chủ yếu hạt cây, vỏ sò, ốc, xương cá — xương thú lớn rất hiếm. Đây là cơ sở sinh thái để phản bác quan điểm VN là bản sao Trung Hoa.",
+      "related_concepts": ["he_sinh_thai_phon_tap", "nong_nghiep_lua_nuoc"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "I", "section": "Bài 2", "page": "33-34"}]
+    },
+    {
+      "id": "he_sinh_thai_phon_tap",
+      "name_vi": "Hệ sinh thái phồn tạp",
+      "name_en": "Complex tropical ecosystem",
+      "domain": "nature_response",
+      "definition": "Hệ sinh thái nhiệt ẩm gió mùa có đa dạng sinh học cao, thực vật vượt trội hơn động vật. Sinh ra nền Văn minh thực vật và văn hóa lúa nước.",
+      "key_insight": "Là bằng chứng sinh thái cốt lõi để phản bác thuyết văn hóa VN là bản sao Trung Hoa — vì Trung Hoa thuộc đại lục lạnh khô, gốc du mục.",
+      "related_concepts": ["van_minh_thuc_vat", "nong_nghiep_lua_nuoc"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "I", "section": "Bài 2", "page": "33-34"}]
+    },
+    {
+      "id": "lang_nua_kin_nua_ho",
+      "name_vi": "Làng (Công xã nông thôn 'nửa kín, nửa hở')",
+      "name_en": "Village as semi-closed, semi-open commune",
+      "domain": "social_organization",
+      "definition": "Công xã tiểu nông kết hợp nguyên lý huyết thống và láng giềng. Nửa kín: quan hệ nội bộ khép kín qua hương ước. Nửa hở: mở ra ngoài qua liên làng và nhà nước.",
+      "key_insight": "Thuật ngữ riêng của Trần Quốc Vượng. Làng không phải pháo đài đóng kín mà là thực thể động. Đây là hằng số cấu trúc xã hội VN: gia đình tiểu nông trong công xã nông thôn duy tình.",
+      "related_concepts": ["giao_luu_tiep_bien", "su_khong_choi_tu"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "I", "section": "Bài 3", "page": "46"}]
+    },
+    {
+      "id": "giao_luu_tiep_bien",
+      "name_vi": "Giao lưu và tiếp biến văn hóa (Acculturation)",
+      "name_en": "Cultural exchange and acculturation",
+      "domain": "philosophy",
+      "definition": "Sự tiếp xúc lâu dài giữa các nhóm văn hóa dẫn đến biến đổi mô thức. Ở VN diễn ra dưới 2 dạng: tự nguyện (Ấn Độ, phương Tây giai đoạn đầu) và cưỡng bức (Bắc thuộc, Pháp thuộc). Luôn kèm theo 'khúc xạ' (Việt hóa).",
+      "key_insight": "VN luôn là chủ thể Việt hóa chứ không bị đồng hóa thụ động. Bằng chứng: giữ được tiếng Việt qua 1000 năm Bắc thuộc, biến chữ Quốc ngữ từ công cụ truyền giáo thành vũ khí khai dân trí.",
+      "related_concepts": ["su_khong_choi_tu", "viet_hoa"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "I", "section": "Bài 4", "page": "50-53"}]
+    },
+    {
+      "id": "su_khong_choi_tu",
+      "name_vi": "Sự không chối từ (Bản lĩnh văn hóa)",
+      "name_en": "Non-refusal / Cultural resilience",
+      "domain": "philosophy",
+      "definition": "Thuật ngữ mượn J. Feray. Thái độ cởi mở, không khép kín, sẵn sàng hấp thu tinh hoa ngoại sinh nhưng chủ động cấu trúc lại (Việt hóa) để giữ cốt lõi. Là 'hằng số của văn hóa Việt Nam'.",
+      "key_insight": "'Không chối từ' không đồng nghĩa bị đồng hóa. VN nhận kỹ thuật làm giấy, gốm sứ từ kẻ thù Hán-Đường để biến thành tài sản dân tộc; nhận chữ Quốc ngữ từ đạo Kitô để biến thành vũ khí đánh Pháp.",
+      "related_concepts": ["giao_luu_tiep_bien", "viet_hoa"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "I", "section": "Bài 3", "page": "146"}, {"source_id": "tqv_coso", "chapter": "Kết luận", "section": "Bài 19", "page": "295"}]
+    },
+    {
+      "id": "van_hoa_vu_trang",
+      "name_vi": "Văn hóa vũ trang",
+      "name_en": "Culture of armed defense",
+      "domain": "social_response",
+      "definition": "Nghệ thuật chiến đấu gắn liền với lao động: sản xuất luôn song hành tự vệ. Đặc trưng thạo thủy chiến (cơ động bằng thuyền), kết hợp dân binh và quân binh.",
+      "key_insight": "Bằng chứng khảo cổ: mộ táng Đông Sơn chôn lưỡi cày cạnh lưỡi rìu xéo, lưỡi đục cạnh ngọn giáo — dựng nước đi đôi giữ nước không chỉ là khẩu hiệu mà là tư duy thực chứng.",
+      "related_concepts": ["dong_son"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "II", "section": "Bài 7", "page": "110-112"}]
+    },
+    {
+      "id": "dong_son",
+      "name_vi": "Văn hóa Đông Sơn",
+      "name_en": "Đông Sơn culture",
+      "domain": "philosophy",
+      "definition": "Trung tâm kim khí phía Bắc trong thế chân vạc 3 nền văn hóa sơ sử (Đông Sơn - Sa Huỳnh - Đồng Nai). Nền tảng hình thành quốc gia Văn Lang. Đặc trưng: tư duy lưỡng phân lưỡng hợp (Dualisme).",
+      "key_insight": "Tây Nguyên hiện đại là hậu duệ rõ nét nhất của Đông Sơn: khố hai vạt, cối giã gạo hình thuyền, dàn cồng chiêng khớp hoàn toàn với hình khắc trên trống đồng Ngọc Lũ I.",
+      "related_concepts": ["sa_huynh", "oc_eo", "van_hoa_vu_trang"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "III", "section": "Bài 8", "page": "123-138"}]
+    },
+    {
+      "id": "sa_huynh",
+      "name_vi": "Văn hóa Sa Huỳnh",
+      "name_en": "Sa Huỳnh culture",
+      "domain": "philosophy",
+      "definition": "Trung tâm kim khí miền Trung, nền tảng vương quốc Chămpa. Đặc trưng: mộ chum hỏa táng, sắt rèn tinh xảo (vượt trội Đông Sơn), khuyên tai hai đầu thú và ba mấu.",
+      "key_insight": "Sa Huỳnh chứng minh sức sáng tạo nội sinh của Đông Nam Á: khuyên tai mã não lan tỏa cả sang Philippines, Thái Lan; trình độ rèn sắt vượt trội các trung tâm cùng thời.",
+      "related_concepts": ["dong_son", "oc_eo"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "III", "section": "Bài 8", "page": "131-133"}]
+    },
+    {
+      "id": "oc_eo",
+      "name_vi": "Văn hóa Óc Eo",
+      "name_en": "Óc Eo culture",
+      "domain": "philosophy",
+      "definition": "Cảng thị sầm uất thiên niên kỷ đầu CN ở Nam Bộ, nền tảng vương quốc Phù Nam. Chủ nhân là cư dân Inđônêxia (nói tiếng Nam Đảo), KHÔNG phải tổ tiên Khơme.",
+      "key_insight": "Tiền La Mã (thế kỷ II) tại Óc Eo chứng minh mạng lưới thương mại toàn cầu tự thân, không chỉ do 'Ấn Độ hóa'. Linga vàng đâm xuyên màng trinh vàng tại mộ Đá Nổi chứng minh tín ngưỡng phồn thực mãnh liệt.",
+      "related_concepts": ["dong_son", "sa_huynh", "phon_thuc"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "III", "section": "Bài 9", "page": "165-169"}]
+    },
+    {
+      "id": "phon_thuc",
+      "name_vi": "Tín ngưỡng phồn thực",
+      "name_en": "Fertility cult",
+      "domain": "religion",
+      "definition": "Tín ngưỡng nội sinh cầu mong sinh sôi nảy nở, biểu hiện qua thờ sinh thực khí (linga, yoni) và hình ảnh giao hợp trong nghệ thuật. Không phải vay mượn từ Ấn Độ.",
+      "key_insight": "Bằng chứng khảo cổ bản địa: tượng linga/yoni đất nung ở Mả Đống (Hà Tây), tượng giao hợp trên thạp đồng Đào Thịnh, điêu khắc đình Đông Viên, Thổ Tang. Dù Nho giáo đàn áp 'dâm từ', tín ngưỡng vẫn sống trong nghệ thuật đình làng.",
+      "related_concepts": ["oc_eo", "dong_son"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "II", "section": "Bài 6", "page": "95-96"}]
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mc_tqv_vn_bansao_trungquoc",
+      "title": "Văn hóa VN là bản sao Trung Hoa",
+      "common_belief": "Văn hóa Việt Nam về cơ bản là bản sao của văn hóa Trung Quốc, do chịu ảnh hưởng lâu dài từ phương Bắc.",
+      "correction": "Cội nguồn sinh thái khác căn bản: VN sinh ra từ hệ sinh thái phồn tạp nhiệt-ẩm-gió mùa (văn minh thực vật), Trung Quốc từ đại lục lạnh khô (văn minh du mục/săn bắt).",
+      "evidence": ["Di chỉ hái lượm tiền sử VN chủ yếu là hạt cây, vỏ sò, ốc, xương cá — xương thú lớn rất hiếm", "Đối lập hoàn toàn với nền văn minh thảo nguyên săn bắt thú lớn"],
+      "severity": "vehement",
+      "domains": ["philosophy", "nature_response"],
+      "related_concepts": ["van_minh_thuc_vat", "he_sinh_thai_phon_tap"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "I", "section": "Bài 2", "page": "32-33"}]
+    },
+    {
+      "id": "mc_tqv_oc_eo_khome",
+      "title": "Chủ nhân văn hóa Óc Eo là tổ tiên Khơme",
+      "common_belief": "Người Khơme là chủ nhân sáng tạo ra nền văn hóa Óc Eo - Phù Nam.",
+      "correction": "Chủ nhân là cư dân thuộc chủng Inđônêxia (nói tiếng Nam Đảo), kết hợp nghề biển cổ truyền.",
+      "evidence": ["Phân tích sọ cổ và xương người cổ tại di tích Óc Eo", "Hiện vật tiền Óc Eo: bôn có mỏ, rìu tứ giác, gốm văn in mang đặc trưng bán đảo Mã Lai/Giava"],
+      "severity": "vehement",
+      "domains": ["philosophy"],
+      "related_concepts": ["oc_eo"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "III", "section": "Bài 9", "page": "168-169"}]
+    },
+    {
+      "id": "mc_tqv_dna_khong_sang_tao",
+      "title": "Đông Nam Á không có sáng tạo đáng kể (Anthony Christie)",
+      "common_belief": "Đông Nam Á không có gì sáng tạo đáng kể ngoài trống đồng.",
+      "correction": "Đông Nam Á có cơ tầng văn hóa riêng, phi Hoa phi Ấn: phức thể văn hóa lúa nước kết hợp núi-đồng bằng-biển.",
+      "evidence": ["Thuần hóa trâu bò", "Kỹ thuật đúc đồng, sắt", "Nghề đi biển", "Tín ngưỡng đa thần (thờ mẹ lúa, mặt trời)"],
+      "severity": "vehement",
+      "domains": ["philosophy"],
+      "related_concepts": ["van_minh_thuc_vat", "dong_son", "sa_huynh"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "I", "section": "Bài 4", "page": "54-55"}]
+    },
+    {
+      "id": "mc_tqv_phong_kien_tay",
+      "title": "Áp dụng mô hình phong kiến châu Âu cho VN",
+      "common_belief": "Xã hội Việt Nam cổ đại hoạt động theo mô hình phong kiến Tây Âu (lãnh chúa sở hữu đất - nông nô).",
+      "correction": "Ở VN thủ lĩnh chỉ phân chia đất chứ không sở hữu vĩnh viễn. Nông dân là tiểu nông tự do thuê ruộng công, không phải nông nô.",
+      "evidence": ["Chế độ công điền công thổ tại làng Việt châu thổ Bắc Bộ"],
+      "severity": "strong",
+      "domains": ["social_organization"],
+      "related_concepts": ["lang_nua_kin_nua_ho"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "I", "section": "Bài 3", "page": "42-43"}]
+    },
+    {
+      "id": "mc_tqv_van_hoa_van_minh",
+      "title": "Dùng lẫn lộn 'văn hóa' và 'văn minh'",
+      "common_belief": "Văn hóa và văn minh là hai khái niệm tương đương, dùng thay thế nhau được.",
+      "correction": "Văn hóa bao gồm cả vật chất và tinh thần, có bề dày lịch sử, mang tính dân tộc. Văn minh chỉ là lát cắt đồng đại, thiên về vật chất/kỹ thuật, mang tính siêu dân tộc.",
+      "evidence": ["Phân tích lý luận khái niệm"],
+      "severity": "mild",
+      "domains": ["cognition"],
+      "related_concepts": [],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "I", "section": "Bài 1", "page": "17-18"}]
+    },
+    {
+      "id": "mc_tqv_diffusionism",
+      "title": "Thuyết khuếch tán văn hóa cực đoan (Diffusionism)",
+      "common_belief": "Mọi sáng tạo văn hóa đều lan tỏa từ một trung tâm duy nhất ra ngoại vi.",
+      "correction": "Sự tương đồng văn hóa sinh ra do cả lan tỏa lẫn hội tụ (môi trường sinh thái giống nhau sinh ra loại hình kinh tế-văn hóa giống nhau). Thuyết này bị lợi dụng làm học thuyết đề cao dân tộc trung tâm.",
+      "evidence": ["Sự tương đồng văn hóa giữa các vùng có điều kiện sinh thái giống nhau mà không có tiếp xúc trực tiếp"],
+      "severity": "vehement",
+      "domains": ["philosophy"],
+      "related_concepts": ["giao_luu_tiep_bien"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "II", "section": "Bài 5", "page": "67-68"}]
+    },
+    {
+      "id": "mc_tqv_1000nam_hanhoa",
+      "title": "1000 năm Bắc thuộc đã Hán hóa hoàn toàn VN",
+      "common_belief": "Chế độ đô hộ 1000 năm đã đồng hóa thành công người Việt về văn hóa.",
+      "correction": "Chế độ đô hộ chỉ thay đổi 'mặt tiền' (façade: hành chính), không phá vỡ được cấu trúc bên trong (xóm làng, tiếng nói). Người Việt 'mất nước chứ không mất làng'.",
+      "evidence": ["Mộ gạch cổ TK 1-6 chứa trống đồng Đông Sơn lật ngửa làm chậu thau", "Bình gốm Hán bị Việt hóa (hổ phù → đầu voi)", "Giữ được tiếng Việt (ngữ hệ Nam Á)"],
+      "severity": "strong",
+      "domains": ["social_response"],
+      "related_concepts": ["giao_luu_tiep_bien", "su_khong_choi_tu"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "III", "section": "Bài 9", "page": "150-153"}]
+    },
+    {
+      "id": "mc_tqv_dao_giao_metin",
+      "title": "Đạo giáo chỉ là mê tín thụ động",
+      "common_belief": "Đạo giáo phù thủy ở VN chỉ là mê tín dị đoan thụ động, không có giá trị.",
+      "correction": "Đạo giáo phù thủy bổ sung tín điều giúp người dân khắc phục khổ đau xã hội, bệnh tật, đáp ứng tinh thần lãng mạn.",
+      "evidence": ["Động lực tâm lý xã hội học của cư dân Việt cổ thời Bắc thuộc"],
+      "severity": "mild",
+      "domains": ["religion"],
+      "related_concepts": [],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "II", "section": "Bài 6", "page": "91-92"}]
+    },
+    {
+      "id": "mc_tqv_hau_dong_metin",
+      "title": "Hầu đồng / Đạo Mẫu là mê tín dị đoan",
+      "common_belief": "Hầu đồng và tín ngưỡng thờ Mẫu là mê tín dị đoan, lạc hậu.",
+      "correction": "Tín ngưỡng thờ Mẫu là 'hiện tượng văn hóa dân gian tổng thể'. Lên đồng là hiện tượng Shaman giáo phổ biến toàn cầu. Chỉ cảnh báo 'khía cạnh mê tín rất dễ bị khai thác'.",
+      "evidence": ["Hát chầu văn, hát bóng, múa bóng, thần tích, hệ thống điện thần lớp lang (Mẫu, Quan, Cô, Cậu)"],
+      "severity": "mild",
+      "domains": ["religion"],
+      "related_concepts": ["phon_thuc"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "II", "section": "Bài 6", "page": "100-101"}]
+    },
+    {
+      "id": "mc_tqv_phan_vung_7_9",
+      "title": "Phân vùng 7 vùng (Ngô Đức Thịnh) hay 9 vùng (Đinh Gia Khánh)",
+      "common_belief": "Việt Nam nên chia thành 7 hoặc 9 vùng văn hóa, trong đó Thanh-Nghệ-Tĩnh là vùng riêng.",
+      "correction": "Chia 6 vùng. Gộp Thanh-Nghệ-Tĩnh vào Châu thổ Bắc Bộ vì tính liên tục của không gian văn hóa Đông Sơn và Hòa Bình.",
+      "evidence": ["Cồn sò hến Đa Bút, Cổ Ngựa (Thanh Hóa) thuộc không gian Hòa Bình/Bắc Sơn/Đông Sơn"],
+      "severity": "mild",
+      "domains": ["cognition"],
+      "related_concepts": [],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Đại cương & Bài 15", "page": "223-224, 248"}]
+    },
+    {
+      "id": "mc_tqv_champa_an_do_hoa",
+      "title": "Chămpa chỉ là quốc gia 'Ấn Độ hóa' (G. Coedes)",
+      "common_belief": "Vương quốc Chămpa hoàn toàn là sản phẩm của quá trình Ấn Độ hóa, không có sáng tạo bản địa.",
+      "correction": "Chămpa có gốc rễ 'tiền Ấn Độ hóa' bản địa (văn hóa Sa Huỳnh). Ấn Độ hóa chỉ xảy ra ở lớp mặt (tôn giáo/tầng lớp trên). Kiến trúc và điêu khắc đã được 'Chăm hóa'.",
+      "evidence": ["Sự trùng hợp không gian giữa di chỉ Chăm và văn hóa Sa Huỳnh", "Kiến trúc tháp Chăm bằng gạch (khác Ấn Độ bằng đá)", "Phù điêu tách rời độc lập (khác Khơme)"],
+      "severity": "strong",
+      "domains": ["philosophy"],
+      "related_concepts": ["sa_huynh"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "III", "section": "Bài 9", "page": "156-157, 162"}]
+    },
+    {
+      "id": "mc_tqv_tay_nguyen_so_hai",
+      "title": "Con người cổ đại sợ hãi trước thiên nhiên/siêu nhiên",
+      "common_belief": "Trong xã hội cổ đại, con người thu mình sợ sệt, hèn kém trước thiên nhiên và lực lượng siêu nhiên.",
+      "correction": "Người Tây Nguyên coi thiên nhiên/siêu nhiên là BẠN, quan hệ bình đẳng. Không có động tác cúi rạp 'lạy thánh mớ bái'.",
+      "evidence": ["Lời khấn giao hẹn: 'Nếu các vị không giúp, sang năm chúng tôi sẽ không cúng'", "Sử thi Đăm San: nhân vật dám đòi lấy Nữ thần Mặt trời"],
+      "severity": "strong",
+      "domains": ["religion"],
+      "related_concepts": [],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 17", "page": "268, 271-272"}]
+    },
+    {
+      "id": "mc_tqv_ong_dao_tam_ly",
+      "title": "'Ông Đạo' Nam Bộ chỉ do hẫng hụt tâm lý",
+      "common_belief": "Các 'Ông Đạo' (Đạo Dừa, Đạo Nằm, Đạo Câm...) ở Nam Bộ ra đời chỉ vì sự hẫng hụt tâm lý của lưu dân đất mới.",
+      "correction": "Gốc rễ gắn liền với phong trào tôn giáo cứu thế (messianisme): Bửu Sơn Kỳ Hương, Tứ Ân Hiếu Nghĩa — hình thức tập hợp nông dân chống áp bức, chống Pháp.",
+      "evidence": ["Sự xuất hiện song hành của Bửu Sơn Kỳ Hương, Tứ Ân Hiếu Nghĩa, Thiên Địa Hội với các phong trào kháng chiến"],
+      "severity": "strong",
+      "domains": ["religion", "social_response"],
+      "related_concepts": [],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 18", "page": "289-290"}]
+    },
+    {
+      "id": "mc_tqv_nho_giao_tk18",
+      "title": "Nho giáo thế kỷ 18 là duy nhất đúng, vững chắc",
+      "common_belief": "Nho giáo vẫn là hệ tư tưởng chủ đạo vững chắc ở VN trong thế kỷ 18.",
+      "correction": "Thế kỷ 18 đánh dấu sự tan vỡ của Nho giáo: 'mọi giá trị đứt tung không cách gì cứu vãn' do sự sa đọa của giai cấp phong kiến. Tư tưởng nhân văn dân gian trỗi dậy.",
+      "evidence": ["Lời đối đáp lịch sử của Ts. Phạm Công Thế và Nguyễn Trang"],
+      "severity": "strong",
+      "domains": ["philosophy"],
+      "related_concepts": [],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "III", "section": "Bài 10", "page": "186"}]
+    },
+    {
+      "id": "mc_tqv_phap_khai_hoa",
+      "title": "Pháp mở trường để 'khai hóa văn minh'",
+      "common_belief": "Thực dân Pháp xây hệ thống trường học nhằm nâng cao dân trí, khai hóa văn minh cho người Việt.",
+      "correction": "Mục đích thực sự là đào tạo đội ngũ công chức (thông, phán, kí) phục vụ bộ máy cai trị thuộc địa.",
+      "evidence": ["Trường Hậu bổ (1897)", "Trường Viễn Đông Bác Cổ", "Đóng cửa ĐH (1908) rồi mở lại với văn bằng không tương đương chính quốc"],
+      "severity": "strong",
+      "domains": ["social_response"],
+      "related_concepts": ["giao_luu_tiep_bien"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "III", "section": "Bài 11", "page": "195-196"}]
+    },
+    {
+      "id": "mc_tqv_tien_hoa_luan",
+      "title": "Tiến hóa luận cực đoan: văn hóa phân chia cao/thấp",
+      "common_belief": "Văn hóa thế giới có thể xếp hạng cao thấp dựa trên trình độ kỹ thuật.",
+      "correction": "Văn hóa không xét ở mức độ cao thấp mà ở góc độ khác biệt do điều kiện sinh tồn (tương đối luận văn hóa, theo F. Boas).",
+      "evidence": ["Các khung giải thích lý thuyết nhân học"],
+      "severity": "strong",
+      "domains": ["philosophy"],
+      "related_concepts": [],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "I", "section": "Bài 1", "page": "16-17"}]
+    },
+    {
+      "id": "mc_tqv_van_hoa_ngoai_kinh_te",
+      "title": "Văn hóa đứng ngoài kinh tế, không sinh lợi",
+      "common_belief": "Văn hóa là lĩnh vực tiêu tiền, đứng ngoài kinh tế, không tạo ra giá trị kinh tế.",
+      "correction": "Kinh tế không tự phát triển nếu thiếu nền tảng văn hóa. Văn hóa vừa là mục tiêu, vừa là động lực phát triển.",
+      "evidence": ["Bài học kinh nghiệm thực tiễn và Tuyên bố UNESCO 1988"],
+      "severity": "strong",
+      "domains": ["social_response"],
+      "related_concepts": [],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "Kết luận", "section": "Bài 19", "page": "295-296"}]
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "cmp_tqv_nong_nghiep_du_muc",
+      "domain": "philosophy",
+      "vietnam": "Nông nghiệp trọng tĩnh: tôn trọng thiên nhiên, tư duy tổng hợp/biện chứng, trọng tình/đức/văn/nữ, linh hoạt, hiếu hòa, dung hợp",
+      "other_culture": "Du mục trọng động: chinh phục thiên nhiên, tư duy phân tích/siêu hình, trọng lý/sức mạnh/võ/nam, nguyên tắc, hiếu thắng, độc tôn",
+      "other_culture_name": "Phương Tây / Thảo nguyên",
+      "explanation": "Sự khác biệt về môi trường (châu thổ vs thảo nguyên) quyết định loại hình kinh tế (trồng trọt vs chăn nuôi), sinh ra hai hình thái tư duy và ứng xử văn hóa đối lập.",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "II", "section": "Bài 5", "page": "69-73"}]
+    },
+    {
+      "id": "cmp_tqv_sinh_thai_vn_tq",
+      "domain": "nature_response",
+      "vietnam": "Hệ sinh thái phồn tạp Nhiệt-Ẩm-Gió mùa, văn minh thực vật, di chỉ chứa hạt cây/vỏ sò/xương cá",
+      "other_culture": "Đại lục lạnh khô, lượng mưa ít, gốc du mục/săn bắt thú lớn",
+      "other_culture_name": "Trung Quốc (Hoàng Hà)",
+      "explanation": "Hai nền văn hóa khác nhau từ căn bản sinh thái, bác bỏ thuyết VN là bản sao TQ.",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "I", "section": "Bài 2", "page": "32-34"}]
+    },
+    {
+      "id": "cmp_tqv_lang_bac_nam",
+      "domain": "social_organization",
+      "vietnam": "Làng Bắc Bộ: công xã 'nửa kín nửa hở', khép kín sau rặng tre, tuổi hàng ngàn năm, phân biệt giai cấp 'nhạt nhòa'",
+      "other_culture": "Làng Nam Bộ: khai phá <400 năm, cư trú theo tuyến dọc kênh rạch, mở cửa, phân cực ruộng đất cao",
+      "other_culture_name": "Nội bộ VN (Nam Bộ)",
+      "explanation": "Làng Nam Bộ của lưu dân đa tộc người nên giao lưu mau lẹ, tính cộng đồng/huyết thống lỏng lẻo hơn.",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 15, 18"}]
+    },
+    {
+      "id": "cmp_tqv_thuy_van_bac_nam",
+      "domain": "nature_response",
+      "vietnam": "Bắc Bộ: đắp đê lấn biển, ngăn lũ, trị thủy nghiêm ngặt (sông Hồng dốc/lũ)",
+      "other_culture": "Nam Bộ: kênh đào đưa nước ngọt theo thủy triều, không đê điều (Mê Kông chảy chậm/hiền)",
+      "other_culture_name": "Nội bộ VN (Nam Bộ)",
+      "explanation": "Thái độ ứng xử thủy văn hoàn toàn khác do đặc tính hai hệ thống sông ngòi.",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 15, 18"}]
+    },
+    {
+      "id": "cmp_tqv_tin_nguong_tay_nguyen_dong_bang",
+      "domain": "religion",
+      "vietnam": "Tây Nguyên: dân chủ nguyên thủy, coi thần linh là 'bạn', giao hẹn sòng phẳng",
+      "other_culture": "Đồng bằng: đẳng cấp, cúi rạp 'lạy thánh mớ bái', tôn giáo phân tầng rõ rệt",
+      "other_culture_name": "Nội bộ VN (Đồng bằng)",
+      "explanation": "Người Tây Nguyên tự tin, quan hệ bình đẳng với siêu nhiên — đối lập với hệ thống đẳng cấp tâm linh ở đồng bằng.",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 17", "page": "268, 271-272"}]
+    },
+    {
+      "id": "cmp_tqv_phat_giao_vn_an_do",
+      "domain": "religion",
+      "vietnam": "Phật giáo dân gian, dung hợp tín ngưỡng bản địa đa thần, nhập thế, không đẳng cấp",
+      "other_culture": "Phật giáo nguyên thủy (Ấn Độ): vô thần, xuất thế",
+      "other_culture_name": "Ấn Độ",
+      "explanation": "Phật giáo khi vào Giao Châu biến dạng mạnh, đan xen tín ngưỡng Mẫu, trở thành vũ khí tinh thần giữ nước. Chùa Dâu thờ Tứ Pháp (Vân, Vũ, Lôi, Điện) = tích hợp Phật giáo + tục thờ tự nhiên.",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "II", "section": "Bài 6"}]
+    }
+  ],
+  "symbols": [
+    {
+      "id": "sym_tqv_trong_dong",
+      "name_vi": "Trống đồng Đông Sơn",
+      "name_en": "Đông Sơn bronze drum",
+      "physical_form": "Hiện vật đồng thau kích thước lớn, trang trí hoa văn đoàn thuyền chiến, hình bò, đầu gà, giã gạo chày tay",
+      "yin_yang_meaning": "Biểu tượng quyền lực cộng đồng và tâm linh",
+      "cultural_meaning": "Trình độ luyện kim đỉnh cao, bằng chứng thạo thủy chiến, văn hóa vũ trang. Thời Bắc thuộc bị lật ngửa làm chậu thau = biểu tượng Việt hóa.",
+      "related_concepts": ["dong_son", "van_hoa_vu_trang"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "III", "section": "Bài 8", "page": "126"}]
+    },
+    {
+      "id": "sym_tqv_linga_vang",
+      "name_vi": "Linga vàng Đá Nổi",
+      "name_en": "Gold linga of Đá Nổi",
+      "physical_form": "Linga bằng vàng gắn trên bệ đồng (cao 0.104m), đâm xuyên qua lá vàng mỏng tượng trưng cho màng trinh",
+      "yin_yang_meaning": "Kết hợp nam (linga) và nữ (màng trinh) = sự sinh sôi",
+      "cultural_meaning": "Bằng chứng mãnh liệt nhất về tín ngưỡng phồn thực bản địa tại Óc Eo, chứng minh không phải vay mượn Ấn Độ.",
+      "related_concepts": ["phon_thuc", "oc_eo"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "III", "section": "Bài 9", "page": "168"}]
+    },
+    {
+      "id": "sym_tqv_khau_cut",
+      "name_vi": "Khau cút (sừng cuộn)",
+      "name_en": "Khau cút roof ornament",
+      "physical_form": "Vật trang trí trên mái đầu hồi nhà sàn Thái, tạc hình ngọn rau đớn xoáy trôn ốc",
+      "yin_yang_meaning": "Biểu tượng sinh sôi, vòng xoắn tự nhiên",
+      "cultural_meaning": "Đặc trưng kiến trúc vùng Tây Bắc, phân biệt nhà sàn Thái với nhà sàn Tày-Nùng.",
+      "related_concepts": [],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 13"}]
+    }
+  ],
+  "terms": [
+    {
+      "id": "trm_tqv_xu",
+      "term_vi": "Xứ",
+      "surface_meaning": "Vùng đất, miền",
+      "cultural_meaning": "Đơn vị không gian trong tâm thức dân gian, có sự khác biệt rõ rệt về phong tục, tiếng nói, ẩm thực. Phản ánh sự tự nhận thức về vùng văn hóa của chính nhân dân, trước khi khoa học phân vùng.",
+      "differs_from_common": "Không phải đơn vị hành chính mà là đơn vị cảm nhận văn hóa dân gian",
+      "domain": "social_organization",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Đại cương", "page": "221"}]
+    },
+    {
+      "id": "trm_tqv_muong_phai_lai_lin",
+      "term_vi": "Mương - Phai - Lái - Lịn",
+      "surface_meaning": "Hệ thống dẫn nước",
+      "cultural_meaning": "Hệ thống thủy lợi tinh xảo của người Thái Tây Bắc: đào rãnh (mương), đắp đập đá ngăn suối (phai), dùng ống tre dẫn nước (lái, lịn). Chứng minh trình độ kỹ thuật nông nghiệp thung lũng cao.",
+      "differs_from_common": "Thuật ngữ chuyên ngành Thái, không phải hệ thống đê điều kiểu Bắc Bộ",
+      "domain": "nature_response",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 13"}]
+    },
+    {
+      "id": "trm_tqv_ca_rang",
+      "term_vi": "Cà ràng",
+      "surface_meaning": "Bếp lò di động",
+      "cultural_meaning": "Bếp ba chân có bàn đế của người Khơme, thiết kế để đun nấu trên mặt đất ẩm/trên ghe. Người Việt Nam Bộ tiếp thu ngay để thích ứng môi trường kênh rạch. Ví dụ điển hình về Việt hóa đồ dùng sinh hoạt.",
+      "differs_from_common": "Không phải bếp cố định mà là công cụ di động thích ứng sông nước",
+      "domain": "customs",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 18"}]
+    },
+    {
+      "id": "trm_tqv_ta_mui",
+      "term_vi": "Ta mui",
+      "surface_meaning": "Uống nước bằng mũi",
+      "cultural_meaning": "Phong tục của người Kháng bên sông Đà, uống nước măng chua hòa tỏi và rau thơm bằng mũi. Phong tục cổ xưa của cư dân bản địa Nam Á trước khi người Thái đến.",
+      "differs_from_common": "Phong tục cụ thể của tộc người, không phải phong tục phổ biến",
+      "domain": "customs",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 13"}]
+    },
+    {
+      "id": "trm_tqv_long_tong",
+      "term_vi": "Lồng tồng",
+      "surface_meaning": "Hội xuống đồng",
+      "cultural_meaning": "Lễ hội lớn nhất của người Tày-Nùng vùng Việt Bắc: rước thần nông ra đồng, kết hợp trò chơi đánh quay, tung còn và giao duyên. Biểu hiện của văn hóa nông nghiệp lúa nước miền núi.",
+      "differs_from_common": "Không phải lễ hội giải trí đơn thuần mà gắn với nghi lễ nông nghiệp và tín ngưỡng",
+      "domain": "customs",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 14"}]
+    }
+  ],
+  "proverbs": [
+    {
+      "id": "prv_tqv_lay_troi",
+      "text_vi": "Lạy trời mưa xuống, lấy nước tôi uống, lấy ruộng tôi cày",
+      "text_en": "Pray to heaven for rain, for water to drink, for fields to plow",
+      "illustrates": "Thái độ phụ thuộc, tôn trọng và hòa hợp với thiên nhiên — đặc trưng văn hóa nông nghiệp trọng tĩnh, đối lập với tham vọng chinh phục thiên nhiên của văn hóa du mục",
+      "domain": "nature_response",
+      "related_concepts": ["van_minh_thuc_vat"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "II", "section": "Bài 5"}]
+    },
+    {
+      "id": "prv_tqv_tham_dong",
+      "text_vi": "Thâm đông thì mưa, thâm dưa thì khú",
+      "text_en": "Dark in the east means rain, dark in the pickle jar means it's fermenting",
+      "illustrates": "Tư duy tổng hợp đa chiều của người nông nghiệp: quan sát đồng thời nhiều yếu tố tự nhiên để dự đoán, đối lập tư duy phân tích đơn chiều",
+      "domain": "cognition",
+      "related_concepts": [],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "II", "section": "Bài 5"}]
+    },
+    {
+      "id": "prv_tqv_giau_com",
+      "text_vi": "Giàu cơm ba bữa, khó đỏ lửa ba lần",
+      "text_en": "Rich means three meals, poor means fire three times a day",
+      "illustrates": "Tâm lý bình quân chủ nghĩa 'bằng vai bằng vế' của nông dân Bắc Bộ, nền kinh tế tự cấp ngưng đọng, tính cá nhân bị triệt tiêu",
+      "domain": "social_organization",
+      "related_concepts": ["lang_nua_kin_nua_ho"],
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 15"}]
+    }
+  ],
+  "cultural_regions": [
+    {
+      "id": "reg_tay_bac",
+      "name_vi": "Vùng văn hóa Tây Bắc",
+      "boundary": "Phía Tây biên giới Lào/sông Mã, phía Đông Hoàng Liên Sơn/sông Hồng, giữa sông Đà. Từ Hòa Bình qua Mộc Châu đến Sơn La, Lai Châu, Điện Biên.",
+      "dominant_ethnic": "Thái (Đen, Trắng)",
+      "key_features": ["Hệ thống thủy lợi Mương-Phai-Lái-Lịn", "Nhà sàn mái rùa có khau cút", "Múa xòe, khèn bè", "Tín ngưỡng 80 hồn", "Tục ta mui"],
+      "character": "Chân thật, giản dị, hòa thuận. Tôn trọng người già, yêu thương trẻ con. Ý thức sinh thái nhân văn cao.",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 13"}]
+    },
+    {
+      "id": "reg_viet_bac",
+      "name_vi": "Vùng văn hóa Việt Bắc",
+      "boundary": "6 tỉnh Cao Bằng, Bắc Cạn, Lạng Sơn, Thái Nguyên, Tuyên Quang, Hà Giang + phần đồi núi Phú Thọ, Vĩnh Phúc, Bắc Giang, Quảng Ninh",
+      "dominant_ethnic": "Tày và Nùng (gốc Bách Việt/Âu Việt)",
+      "key_features": ["Nhà sàn 4 mái, cầu thang bậc lẻ", "Áo chàm tĩnh lặng", "Hội Lồng tồng", "Hát lượn cọi, lượn slương"],
+      "character": "Tính cộng đồng dòng họ bền chặt. Phụ quyền khá đậm. Bình đẳng nhân ái trong bữa ăn.",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 14"}]
+    },
+    {
+      "id": "reg_chau_tho_bac_bo",
+      "name_vi": "Vùng văn hóa Châu thổ Bắc Bộ",
+      "boundary": "Lưu vực sông Hồng, sông Thái Bình, sông Mã (bao gồm Thanh-Nghệ-Tĩnh)",
+      "dominant_ethnic": "Việt (Kinh)",
+      "key_features": ["Cái nôi văn minh lúa nước và văn hóa bác học", "Làng 'nửa kín nửa hở'", "Đê điều chống lũ", "Đình chùa dày đặc", "Cơm-Rau-Cá nước ngọt"],
+      "character": "Ý thức cộng đồng siêu mạnh nhưng triệt tiêu cá nhân. Tâm lý 'xa rừng nhạt biển'. Bình quân chủ nghĩa.",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 15"}]
+    },
+    {
+      "id": "reg_trung_bo",
+      "name_vi": "Vùng văn hóa Trung Bộ",
+      "boundary": "Từ đèo Ngang (Quảng Bình) đến Bình Thuận",
+      "dominant_ethnic": "Việt và Chăm",
+      "key_features": ["Trạm trung chuyển Việt-Chăm", "Tháp Chăm dày đặc", "Tiểu vùng Huế: kiến trúc cung đình", "Dung hợp Việt hóa nữ thần Chăm thành Bà Chúa Ngọc", "Ẩm thực cay"],
+      "character": "Tính đệm, trung gian đa sắc thái. Kiên cường vượt điều kiện khắc nghiệt. Xứ Huế kín đáo, thơ mộng.",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 16"}]
+    },
+    {
+      "id": "reg_tay_nguyen",
+      "name_vi": "Vùng văn hóa Tây Nguyên (Trường Sơn - Tây Nguyên)",
+      "boundary": "5 tỉnh Gia Lai, Kon Tum, Đắc Lắc, Đắc Nông, Lâm Đồng, dọc sườn Tây Trường Sơn",
+      "dominant_ethnic": "Nhóm Môn-Khơme và Mã Lai-Đa Đảo (Êđê, Giarai, Bana, M'nông...)",
+      "key_features": ["Hậu duệ rõ nét nhất của Đông Sơn", "Cồng chiêng (3 phong cách)", "Sử thi hát ngâm trong bóng tối", "Tín ngưỡng bình đẳng thần linh", "Nhà mồ tượng gỗ", "Dân chủ công xã nguyên thủy"],
+      "character": "Dũng cảm, tự tin trước siêu nhiên. Bản thiện nguyên thủy chưa bị tha hóa. Trí tưởng tượng bay bổng.",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 17"}]
+    },
+    {
+      "id": "reg_nam_bo",
+      "name_vi": "Vùng văn hóa Nam Bộ",
+      "boundary": "Đông Nam Bộ (Bình Phước, Tây Ninh, Đồng Nai, Vũng Tàu, TP.HCM) + Tây Nam Bộ (ĐBSCL)",
+      "dominant_ethnic": "Việt (lưu dân), cộng cư Khơme, Hoa, Chăm",
+      "key_features": ["Vùng đất mới <400 năm", "Tôn giáo cứu thế (messianisme)", "Ẩm thực tiếp biến (cà ràng, giải nhiệt)", "Cái nôi chữ Quốc ngữ/báo chí", "5700km kênh rạch, không đê điều"],
+      "character": "Cởi mở, khoáng đạt, thực tế. Tiếp thu văn hóa mới cực nhanh. Không có chiến tranh sắc tộc.",
+      "source_refs": [{"source_id": "tqv_coso", "chapter": "IV", "section": "Bài 18"}]
+    }
+  ]
+}

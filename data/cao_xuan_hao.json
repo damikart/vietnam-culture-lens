@@ -1,0 +1,355 @@
+{
+  "version": "0.1.0",
+  "sources": [
+    {
+      "id": "cxh_tvvnv",
+      "author": "Cao Xuân Hạo",
+      "title": "Tiếng Việt - Văn Việt - Người Việt",
+      "year": 2001,
+      "type": "book"
+    }
+  ],
+  "framework": {
+    "central_opposition": {
+      "pair_1": {
+        "name": "Cấu trúc Đề-Thuyết (Tiếng Việt) vs Cấu trúc Chủ-Vị (Ấn-Âu)",
+        "vietnamese": "Khung tư duy cơ bản là Đề-Thuyết (Topic-Comment). Không có chủ ngữ ngữ pháp. Đề có thể mang bất kỳ vai nghĩa nào.",
+        "indo_european": "Nòng cốt Chủ-Vị (Subject-Predicate). Chủ ngữ bắt buộc phù ứng hình thái học (ngôi, số) với động từ."
+      },
+      "pair_2": {
+        "name": "Ngôn ngữ đơn lập (Tiếng Việt) vs Ngôn ngữ biến hình (Ấn-Âu)",
+        "isolating": "Đơn vị cơ bản là Tiếng (âm tiết/hình tiết/macrophoneme) — khối toàn vẹn không thể cắt vụn thành âm tố",
+        "inflectional": "Đơn vị cơ bản là âm tố (microphoneme), 1 âm tiết tách được nhiều hình vị có nghĩa"
+      },
+      "pair_3": {
+        "name": "Tư duy Chủ toàn (Phương Đông) vs Chủ biệt (Phương Tây)",
+        "holistic": "Vũ trụ là tổng thể động, phi tuyến tính, cầu tính (sphérique). Tương phản nhi bất tương vô.",
+        "analytic": "Thế giới là tập hợp sự vật rời rạc, tuyến tính (linéaire), siêu hình. Cogito ergo sum."
+      }
+    },
+    "methodology": "Ngôn ngữ học loại hình chức năng (Functional Typology). Ngôn ngữ là lăng kính phản chiếu cấu trúc tư duy và văn hóa.",
+    "positioning": "Tiếng Việt là ngôn ngữ đơn lập điển hình nhất. Thuộc ngữ hệ Nam Á, nhánh Môn-Khmer, nhóm Việt-Mường."
+  },
+  "concepts": [
+    {
+      "id": "de_thuyet",
+      "name_vi": "Cấu trúc Đề - Thuyết (Topic - Comment)",
+      "name_en": "Topic-Comment structure",
+      "domain": "linguistics",
+      "definition": "Khung tư duy cơ bản và cốt lõi của tiếng Việt. Câu gồm Đề (đề tài/xuất phát điểm) và Thuyết (nói điều liên quan đến Đề). Đề có thể mang bất kỳ vai nghĩa nào, khác hoàn toàn với Chủ-Vị phương Tây.",
+      "key_insight": "70% câu thuần Việt bị coi là 'câu què, câu cụt' khi ép theo mô hình Chủ-Vị. Câu 'Chó treo, mèo đậy' không thể phân tích Chủ-Vị (chó không treo, mèo không đậy) nhưng hoàn hảo theo Đề-Thuyết.",
+      "related_concepts": ["chu_de_khung_de", "thi_la_ma", "vai_nghia"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Linh hồn tiếng Việt"}]
+    },
+    {
+      "id": "chu_de_khung_de",
+      "name_vi": "Chủ đề và Khung đề",
+      "name_en": "Instance topic vs Range topic",
+      "domain": "linguistics",
+      "definition": "Đề ngữ chia 2 loại: Chủ đề = thực thể mà phần thuyết nói tới (đối tượng tư duy, chi phối tỉnh lược). Khung đề = khung không gian/thời gian/điều kiện mà trong đó phần thuyết có giá trị.",
+      "key_insight": "Ngữ pháp truyền thống nhầm Khung đề với Trạng ngữ hoặc Chủ ngữ. Khung đề đứng đầu câu và có thể chêm 'thì': 'Hôm qua (thì) mưa', 'Ở đây (thì) mát quá'.",
+      "related_concepts": ["de_thuyet", "thi_la_ma"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Những tri thức và kỹ năng..."}]
+    },
+    {
+      "id": "danh_tu_don_vi",
+      "name_vi": "Danh từ đơn vị (cái, con, chiếc...)",
+      "name_en": "Unit noun (not classifier)",
+      "domain": "linguistics",
+      "definition": "Thực từ chỉ 'Vật' có đường biên phân lập, đếm được (có số). KHÔNG phải 'loại từ' hay 'hư từ rỗng nghĩa'. Đối lập với Danh từ khối (chỉ 'Tính' — chất liệu bàng bạc, không đếm được).",
+      "key_insight": "'Cái lỗ' dù rỗng không về vật chất nhưng vẫn là 'vật' có đường biên → đếm được. Câu 'Tôi ăn hai cái' hoàn toàn đúng ngữ pháp, không phải câu tỉnh lược. Cơ chế giống tiếng Anh: 'a loaf of bread'.",
+      "related_concepts": ["de_thuyet"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Lỗ là một vật; Trương Vĩnh Ký..."}]
+    },
+    {
+      "id": "vai_nghia",
+      "name_vi": "22 Vai nghĩa (Semantic Roles)",
+      "name_en": "22 semantic roles",
+      "domain": "linguistics",
+      "definition": "Câu biểu hiện một 'sự tình' (màn kịch ngắn). Các từ ngữ đóng các 'vai' do Vị từ quy định. 22 vai: Người hành động, Người tác động, Lực tác động, Người thể nghiệm, Đối tượng, Vật tạo tác, Người mang trạng thái, Người nhận, Người hưởng lợi, Nơi chốn, Đích, Hướng, Nguồn, Lối đi, Phương thức, Công cụ, Thời gian, Khoảng cách, Nguyên nhân, Điều kiện, Trở ngại, Người/vật tồn tại.",
+      "key_insight": "Vai nghĩa không tương ứng 1-1 với chức năng cú pháp (Chủ ngữ/Bổ ngữ). Trong 'Mẹ về quê', 'Mẹ cho em kẹo', 'Mẹ đau chân' — từ 'Mẹ' đều làm Chủ đề nhưng mang 3 vai khác nhau.",
+      "related_concepts": ["de_thuyet"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Những tri thức và kỹ năng..."}]
+    },
+    {
+      "id": "thi_la_ma",
+      "name_vi": "Thì, là, mà (Tác tử phân giới)",
+      "name_en": "Topic-comment boundary markers",
+      "domain": "linguistics",
+      "definition": "Từ công cụ đánh dấu ranh giới giữa Đề và Thuyết. 'Thì' bắt buộc khi ranh giới không rõ. KHÔNG phải từ vô ích — Nguyễn Du dùng rất nhiều trong Truyện Kiều.",
+      "key_insight": "Giới biên tập sai lầm khi gạch bỏ 'thì, là, mà' vì coi là 'chiếm chỗ'. Câu 'Trên thì bừa cạn, dưới thì cày sâu' mất 'thì' sẽ mất ranh giới Đề-Thuyết.",
+      "related_concepts": ["de_thuyet", "chu_de_khung_de"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Linh hồn tiếng Việt"}]
+    },
+    {
+      "id": "don_lap",
+      "name_vi": "Ngôn ngữ đơn lập (Isolating language)",
+      "name_en": "Isolating language",
+      "domain": "linguistics",
+      "definition": "Tiếng Việt là ngôn ngữ đơn lập điển hình nhất. Đơn vị cơ bản là 'Tiếng' (trường âm vị/Macrophoneme) — khối toàn vẹn không thể cắt vụn thành âm tố như ngôn ngữ biến hình.",
+      "key_insight": "Chữ Quốc ngữ (ABC) che giấu và xuyên tạc tính đơn tiết. Chữ Hán (ghi ý/Gestalt) phù hợp hơn. Tiếng Nga: 1 âm tiết 'shla' tách được 3 hình vị; tiếng Việt: 1 tiếng = 1 khối.",
+      "related_concepts": ["de_thuyet", "danh_tu_don_vi"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Chữ Tây và chữ Hán; Mấy nhận xét..."}]
+    },
+    {
+      "id": "gia_toc_hoa",
+      "name_vi": "Văn hóa gia tộc hóa (qua xưng hô)",
+      "name_en": "Kinship-based address culture",
+      "domain": "social_organization",
+      "definition": "Tiếng Việt thiếu đại từ nhân xưng trung hòa, dùng từ thân tộc (anh/chị/em/chú/bác) trong giao tiếp xã hội. Tạo 'không khí gia tộc hoàn toàn nhân tạo'.",
+      "key_insight": "Hệ quả tiêu cực: triệt tiêu dân chủ/bình đẳng, dung túng nepotism, thái độ kẻ cả, khúm núm. Nhà báo gọi chiến sĩ hải đảo là 'em/cháu' chỉ vì lớn tuổi hơn. Dịch đại từ cho Napoléon sang tiếng Việt bế tắc.",
+      "related_concepts": ["chu_toan_chu_biet"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Mấy vấn đề về văn hóa trong cách xưng hô..."}]
+    },
+    {
+      "id": "chu_toan_chu_biet",
+      "name_vi": "Chủ toàn vs Chủ biệt",
+      "name_en": "Holistic vs Analytic thinking",
+      "domain": "philosophy",
+      "definition": "Chủ toàn (phương Đông/Lão Trang): vũ trụ là tổng thể động, phi tuyến, cầu tính. Chủ biệt (phương Tây/Descartes): thế giới rời rạc, tuyến tính, siêu hình. Cấu trúc luận hiện đại đang tiến gần Chủ toàn.",
+      "key_insight": "Mỹ cảm thơ ca (đối xứng bằng-trắc, hiệp vần) và âm nhạc (hợp âm thuận-nghịch) là thủ pháp khắc phục tính tuyến tính của thời gian, biến tác phẩm thành 'khối hình vuông vức' phi tuyến.",
+      "related_concepts": ["de_thuyet", "don_lap"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Quan điểm chủ toàn trong Triết học Lão Trang..."}]
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mc_cxh_chu_vi",
+      "title": "Ngữ pháp tiếng Việt có nòng cốt Chủ-Vị",
+      "common_belief": "Tiếng Việt có cấu trúc Chủ ngữ - Vị ngữ giống ngôn ngữ Ấn-Âu. Câu không có chủ ngữ là 'câu què, câu cụt'.",
+      "correction": "Cấu trúc cơ bản là Đề-Thuyết. Tiếng Việt KHÔNG có chủ ngữ ngữ pháp. Ép Chủ-Vị làm hỏng 70% câu thuần Việt.",
+      "evidence": ["Phản bác cách đảo 'Tôi tên là Nam' thành 'Tên của tôi là Nam'", "Câu 'Chó treo, mèo đậy' — chó không treo, mèo không đậy"],
+      "severity": "vehement",
+      "domains": ["linguistics"],
+      "related_concepts": ["de_thuyet"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Mạnh hơn bão táp; Linh hồn tiếng Việt"}]
+    },
+    {
+      "id": "mc_cxh_han_viet_ngoai_lai",
+      "title": "Từ Hán Việt là 'ngoại lai' cần bài trừ",
+      "common_belief": "Từ Hán Việt là từ ngoại lai đi mượn, cần thay bằng từ 'thuần Việt'.",
+      "correction": "Phân biệt Hán Việt/Thuần Việt là nhân tạo. Từ Hán Việt đã Việt hóa hoàn toàn. Sắc thái trang trọng do đối lập nội tại trong tiếng Việt tạo ra, không phải do tiếng Hán.",
+      "evidence": ["Thay 'trực thăng' bằng 'lên thẳng' → sai và lố bịch", "'Nữ thủ tướng' bị đổi thành 'thủ tướng gái'", "'Phong ba' trong tiếng Hán chỉ là sóng gió bình thường, sang Việt mới thi vị"],
+      "severity": "vehement",
+      "domains": ["linguistics"],
+      "related_concepts": [],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Hán Việt và Thuần Việt"}]
+    },
+    {
+      "id": "mc_cxh_loai_tu_hu_tu",
+      "title": "'Loại từ' (cái, con, chiếc) là hư từ rỗng nghĩa",
+      "common_belief": "Các từ cái, con, chiếc là 'loại từ', thuộc hạng hư từ rỗng nghĩa, không độc lập.",
+      "correction": "Đó là danh từ đơn vị (thực từ) biểu thị 'Vật' phân lập có đường biên, có phạm trù đếm được (số).",
+      "evidence": ["'Cái lỗ' — dù rỗng không vẫn là vật đếm được vì có đường biên", "'Tôi ăn hai cái' là câu hoàn chỉnh, không phải tỉnh lược"],
+      "severity": "vehement",
+      "domains": ["linguistics"],
+      "related_concepts": ["danh_tu_don_vi"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Lỗ là một vật; Trương Vĩnh Ký..."}]
+    },
+    {
+      "id": "mc_cxh_bi_dong",
+      "title": "Tiếng Việt có thái bị động (bị/được = passive marker)",
+      "common_belief": "Tiếng Việt có thái bị động, 'bị' và 'được' là trợ từ/chỉ tố bị động.",
+      "correction": "Tiếng Việt KHÔNG có thái bị động. 'Bị, được' là vị từ ngoại động chủ động: 'bị' = chịu đựng (subir), 'được' = nhận/hưởng (obtenir).",
+      "evidence": ["Câu sai do ép bị động: 'Ất bị đánh bởi Giáp'", "Ngữ pháp 1940 hiểu đúng: 'Nó bị đánh' = 'Il subit un châtiment' (chủ động)"],
+      "severity": "strong",
+      "domains": ["linguistics"],
+      "related_concepts": [],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Nhân đọc lại một cuốn sách cũ"}]
+    },
+    {
+      "id": "mc_cxh_da_dang_se",
+      "title": "'Đã, đang, sẽ' chỉ phạm trù Thì (Tense)",
+      "common_belief": "'Đã' = quá khứ, 'đang' = hiện tại, 'sẽ' = tương lai — tiếng Việt có phạm trù Thì giống ngôn ngữ Ấn-Âu.",
+      "correction": "Tiếng Việt KHÔNG có Thì. 'Đã, đang, sẽ' chỉ Thể (Aspect: hoàn thành/tiếp diễn) và Thức (Mood). Thời gian do trạng ngữ/văn cảnh quy định.",
+      "evidence": ["Cách viết sai từ 1965: 'Ta đã và đang phấn đấu'", "Giáo điều TK 17 gán ghép da=quá khứ bị áp dụng máy móc"],
+      "severity": "strong",
+      "domains": ["linguistics"],
+      "related_concepts": [],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Nhân đọc lại một cuốn sách cũ"}]
+    },
+    {
+      "id": "mc_cxh_chu_abc",
+      "title": "Chữ La Tinh (ABC) là khoa học, tiến bộ nhất",
+      "common_belief": "Chữ ABC ghi âm là hệ thống chữ viết khoa học nhất, tiến bộ nhất, lý tưởng 'phát âm thế nào viết thế ấy'.",
+      "correction": "Chữ ABC chỉ hợp ngôn ngữ biến hình. Với ngôn ngữ đơn lập (Việt, Hán), chữ Hán (ghi ý/Gestalt) ưu việt hơn nhờ nhận diện tức khắc và phân biệt đồng âm.",
+      "evidence": ["Trẻ em mắc chứng alexia không ghép vần ABC được nhưng học được chữ Hán", "Chữ 山 nhìn là nhận ra ngay, 'gia/da' trong Quốc ngữ dễ lẫn"],
+      "severity": "vehement",
+      "domains": ["linguistics", "cognition"],
+      "related_concepts": ["don_lap"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Chữ Tây và chữ Hán, thứ chữ nào hơn?"}]
+    },
+    {
+      "id": "mc_cxh_thi_la_ma",
+      "title": "'Thì, là, mà' là vô ích, chiếm chỗ",
+      "common_belief": "Các từ 'thì, là, mà' rườm rà, vô ích, nên gạch bỏ khi biên tập.",
+      "correction": "Đây là tác tử phân giới cốt lõi, vạch ranh giới Đề-Thuyết. Nguyễn Du dùng rất nhiều trong Truyện Kiều.",
+      "evidence": ["'Trên thì bừa cạn, dưới thì cày sâu' — mất 'thì' sẽ mất ranh giới Đề-Thuyết"],
+      "severity": "strong",
+      "domains": ["linguistics"],
+      "related_concepts": ["thi_la_ma", "de_thuyet"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Linh hồn tiếng Việt"}]
+    },
+    {
+      "id": "mc_cxh_tieng_viet_ma_lai",
+      "title": "Tiếng Việt là tiếng Mã Lai",
+      "common_belief": "Tiếng Việt có nguồn gốc từ tiếng Mã Lai (quan điểm Bình Nguyên Lộc, Hiếu Thiện).",
+      "correction": "Tiếng Việt thuộc hệ Môn-Khmer (Nam Á). Thuyết Mã Lai cắt xén âm tiết tùy tiện, phi khoa học.",
+      "evidence": ["Cắt xén 'watakushi' (Nhật) thành 'tau/ai'", "Từ Việt gốc đa dạng: 'chim' (Môn-Khmer), 'vịt' (Thái), 'cá' (Nam Đảo), 'thỏ' (Hán Việt)"],
+      "severity": "vehement",
+      "domains": ["linguistics"],
+      "related_concepts": ["don_lap"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Tiếng Việt là tiếng Mã Lai?"}]
+    },
+    {
+      "id": "mc_cxh_du_tuy",
+      "title": "Đánh đồng 'dù' và 'tuy/mặc dầu'",
+      "common_belief": "Dùng 'dù' và 'tuy' thay thế lẫn nhau được vì nghĩa tương đương.",
+      "correction": "'Tuy/mặc dầu' chỉ sự thể HIỆN THỰC (đã xảy ra). 'Dù/dẫu' chỉ sự thể PHI HIỆN THỰC (giả định). Đánh đồng làm mất khả năng phân biệt tinh tế.",
+      "evidence": ["Sai: 'Dù nói tiếng Anh rất khá, anh ta chỉ có bằng A' (phải dùng 'Tuy')", "Đúng: 'Dù cho biển cạn non mòn' (giả định)"],
+      "severity": "strong",
+      "domains": ["linguistics"],
+      "related_concepts": [],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Một sự phân biệt bị đánh mất"}]
+    },
+    {
+      "id": "mc_cxh_hieu_hoc",
+      "title": "Hiếu học là bản tính cố hữu bẩm sinh vị tri thức",
+      "common_belief": "Người Việt có bản tính hiếu học bẩm sinh, yêu tri thức vì tri thức.",
+      "correction": "Xưa học để thi thố làm quan thoát nghèo. Nay biến tướng thành mua bằng bán cấp, bệnh vĩ cuồng học thuật (megalomania) — tự mãn, lười đọc sách nhưng thích phán truyền.",
+      "evidence": ["Sách Dẫn luận Ngôn ngữ học ĐH chứa hơn 2000 lỗi sơ đẳng", "Phát thanh viên đọc sai 'el niño' thành 'en nino'"],
+      "severity": "strong",
+      "domains": ["social_response"],
+      "related_concepts": ["gia_toc_hoa"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Về tính hiếu học; Chứng vĩ cuồng"}]
+    },
+    {
+      "id": "mc_cxh_xung_ho_tich_cuc",
+      "title": "Xưng hô thân tộc tạo 'không khí gia đình' tốt đẹp",
+      "common_belief": "Dùng từ thân tộc (anh/chị/em/chú/bác) trong xã hội tạo gắn bó thâm tình, là nét đẹp văn hóa.",
+      "correction": "Triệt tiêu dân chủ, bình đẳng. Dung túng kẻ cả, khúm núm, nepotism. Nhà báo gọi công dân trưởng thành là 'em/cháu' chỉ vì lớn tuổi hơn.",
+      "evidence": ["Giáo viên Pháp xưa gọi học trò là 'vous' (tôn trọng), GV Việt gọi SV là 'em' (bề trên)", "Dịch đại từ cho Napoléon sang tiếng Việt bế tắc"],
+      "severity": "strong",
+      "domains": ["social_organization"],
+      "related_concepts": ["gia_toc_hoa"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Mấy vấn đề về văn hóa trong cách xưng hô..."}]
+    },
+    {
+      "id": "mc_cxh_anh_ay_tach_bach",
+      "title": "Phải phát âm tách bạch 'anh ấy, chị ấy'",
+      "common_belief": "Diễn viên phải phát âm rõ ràng 'anh ấy', không được nói 'ảnh'.",
+      "correction": "Trái quy luật ngữ âm tiếng Việt. Đại từ hồi chỉ vô trọng âm tự động nhược hóa/hòa đúc thành 'ảnh, chỉ, bển'. Ép tách bạch biến hư từ thành thực từ.",
+      "evidence": ["'Ông anh ấy' (ông anh của người ấy) khác 'ông ảnh' (ông ấy)"],
+      "severity": "strong",
+      "domains": ["linguistics"],
+      "related_concepts": ["don_lap"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Ổng, Ảnh, Bển"}]
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "cmp_cxh_de_thuyet_chu_vi",
+      "domain": "linguistics",
+      "vietnam": "Đề-Thuyết (Topic-Comment): không có chủ ngữ ngữ pháp, Đề mang mọi vai nghĩa, 'thì' đánh dấu ranh giới",
+      "other_culture": "Chủ-Vị (Subject-Predicate): chủ ngữ bắt buộc, phù ứng ngôi/số với động từ, chủ ngữ bị giới hạn vai",
+      "other_culture_name": "Ngôn ngữ Ấn-Âu (Pháp, Anh, Nga)",
+      "explanation": "Áp đặt Chủ-Vị phương Tây vào tiếng Việt khiến 70% câu thuần Việt bị coi là câu què cụt. 'Chó treo, mèo đậy' không phân tích được theo Chủ-Vị.",
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Linh hồn tiếng Việt"}]
+    },
+    {
+      "id": "cmp_cxh_chu_viet_chu_han",
+      "domain": "linguistics",
+      "vietnam": "Chữ Quốc ngữ (ABC): ghi âm, dùng tiểu âm vị, che giấu tính đơn tiết",
+      "other_culture": "Chữ Hán: ghi ý, Gestalt thị giác, nhận diện tức khắc, khắc phục đồng âm",
+      "other_culture_name": "Trung Hoa / Nhật Bản",
+      "explanation": "Với ngôn ngữ đơn lập, chữ ghi ý ưu việt hơn chữ ghi âm. Trẻ alexia không ghép ABC được nhưng học được Kanji. Tiếng Nhật đa tiết còn dùng Hán tự thành công, tiếng Việt đơn tiết càng phù hợp.",
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Chữ Tây và chữ Hán"}]
+    },
+    {
+      "id": "cmp_cxh_xung_ho_vn_phap",
+      "domain": "social_organization",
+      "vietnam": "Dùng từ thân tộc (anh/chị/em/chú/bác) trong xã hội, tước bỏ trung lập khách quan",
+      "other_culture": "Dùng đại từ trung hòa tu/vous, thầy giáo gọi học trò bằng 'vous' (tôn trọng bình đẳng)",
+      "other_culture_name": "Pháp",
+      "explanation": "Tiếng Việt thiếu đại từ trung lập tạo ra văn hóa gia tộc hóa nhân tạo, triệt tiêu bình đẳng công dân, dung túng nepotism.",
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Mấy vấn đề về văn hóa trong cách xưng hô..."}]
+    },
+    {
+      "id": "cmp_cxh_chu_toan_chu_biet",
+      "domain": "philosophy",
+      "vietnam": "Chủ toàn (Lão Trang): tổng thể động, phi tuyến, cầu tính, 'tương phản nhi bất tương vô'",
+      "other_culture": "Chủ biệt (Descartes): rời rạc, tuyến tính, siêu hình, 'Cogito ergo sum'",
+      "other_culture_name": "Phương Tây",
+      "explanation": "Cấu trúc luận hiện đại (Trường phái Praha) đang tiến từ tĩnh sang động, tiệm cận Chủ toàn. Mỹ cảm bằng-trắc/hiệp vần = khắc phục tuyến tính.",
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Quan điểm chủ toàn trong Triết học Lão Trang..."}]
+    },
+    {
+      "id": "cmp_cxh_han_viet_goc_han",
+      "domain": "linguistics",
+      "vietnam": "Từ Hán Việt trong tiếng Việt: sắc thái trang trọng, bác học, thi vị (do đối lập với từ Nôm)",
+      "other_culture": "Từ gốc Hán trong tiếng Trung: nghĩa bình thường, không có sắc thái bác học",
+      "other_culture_name": "Trung Hoa",
+      "explanation": "Sắc thái trang trọng là do người Việt tạo ra, chứng tỏ từ Hán Việt đã hòa nhập vào máu thịt tiếng Việt. 'Phong ba' (Hán: sóng gió) → (Việt: thi vị).",
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Hán Việt và Thuần Việt"}]
+    }
+  ],
+  "symbols": [],
+  "terms": [
+    {
+      "id": "trm_cxh_tieng",
+      "term_vi": "Tiếng (Âm tiết / Hình tiết / Macrophoneme)",
+      "surface_meaning": "Âm tiết, đơn vị phát âm",
+      "cultural_meaning": "Đơn vị cơ bản của hệ thống âm vị học tiếng Việt, đồng thời là đơn vị ngữ nghĩa và ngữ pháp. Không thể phân tích cắt vụn thành âm tố (speech sounds) như ở ngôn ngữ châu Âu.",
+      "differs_from_common": "Ngôn ngữ học phương Tây coi âm tố (tiểu âm vị) là đơn vị cơ bản. Cao Xuân Hạo khẳng định Tiếng (trường âm vị) mới là đơn vị đúng cho tiếng Việt.",
+      "domain": "linguistics",
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Chữ Tây và chữ Hán"}]
+    },
+    {
+      "id": "trm_cxh_dù_tuy",
+      "term_vi": "Dù vs Tuy/Mặc dầu",
+      "surface_meaning": "Liên từ nhượng bộ",
+      "cultural_meaning": "'Tuy/mặc dầu' = sự thể hiện thực (đã xảy ra). 'Dù/dẫu' = sự thể phi hiện thực (giả định). Báo chí sau 1970 đánh đồng, làm tiếng Việt mất khả năng phân biệt tinh tế.",
+      "differs_from_common": "Đa số người Việt hiện nay dùng lẫn lộn, không phân biệt hiện thực/giả định",
+      "domain": "linguistics",
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Một sự phân biệt bị đánh mất"}]
+    },
+    {
+      "id": "trm_cxh_cuu_canh",
+      "term_vi": "Cứu cánh",
+      "surface_meaning": "Bị hiểu sai thành 'cứu nguy, cứu mạng'",
+      "cultural_meaning": "Nghĩa đúng (Hán Việt): mục đích cuối cùng (la fin). Do 'vọng văn sinh nghĩa', dân chúng gán sai thành 'cứu nguy', dễ dãi chấp nhận mọi thủ đoạn (phương tiện) để đạt mục đích.",
+      "differs_from_common": "Hầu hết người Việt hiểu sai, dùng sai",
+      "domain": "linguistics",
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Đôi chút tự trào"}]
+    },
+    {
+      "id": "trm_cxh_vi_cuong",
+      "term_vi": "Chứng vĩ cuồng (Megalomania)",
+      "surface_meaning": "Hoang tưởng tự đại",
+      "cultural_meaning": "Bệnh của giới trí thức thành đạt bằng đường tắt. Chuỗi tâm lý: Dốt→Nghèo→Kiêu. Tự huyễn hoặc là 'siêu nhân', sổ toẹt kiến thức nhân loại không cần chứng minh. Tàn phá nền giáo dục.",
+      "differs_from_common": "Cao Xuân Hạo dùng như thuật ngữ phê bình xã hội, không chỉ là khái niệm tâm thần học",
+      "domain": "social_response",
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Chứng vĩ cuồng — hiện tượng và căn nguyên"}]
+    }
+  ],
+  "proverbs": [
+    {
+      "id": "prv_cxh_cho_treo",
+      "text_vi": "Chó treo, mèo đậy",
+      "text_en": "For dogs, hang [food] up; for cats, cover [food]",
+      "illustrates": "Ví dụ kinh điển chứng minh cấu trúc Đề-Thuyết. Không thể phân tích theo Chủ-Vị (chó không treo, mèo không đậy). Phải hiểu: Về phần chó thì treo thức ăn lên, về phần mèo thì đậy lại.",
+      "domain": "linguistics",
+      "related_concepts": ["de_thuyet"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Linh hồn tiếng Việt"}]
+    },
+    {
+      "id": "prv_cxh_tham_thi_tham",
+      "text_vi": "Tham thì thâm",
+      "text_en": "Greedy then loss",
+      "illustrates": "Câu Đề-Thuyết điển hình với 'thì' làm tác tử phân giới. Đề = 'Tham', Thuyết = 'thâm'.",
+      "domain": "linguistics",
+      "related_concepts": ["de_thuyet", "thi_la_ma"],
+      "source_refs": [{"source_id": "cxh_tvvnv", "section": "Linh hồn tiếng Việt"}]
+    }
+  ]
+}

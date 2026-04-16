@@ -1,0 +1,329 @@
+{
+  "version": "0.1.0",
+  "sources": [
+    {
+      "id": "ndt_daomau1",
+      "author": "Ngô Đức Thịnh",
+      "title": "Đạo Mẫu Việt Nam - Tập 1",
+      "year": 2009,
+      "type": "book"
+    },
+    {
+      "id": "ndt_daomau2",
+      "author": "Ngô Đức Thịnh",
+      "title": "Đạo Mẫu Việt Nam - Tập 2",
+      "year": 2009,
+      "type": "book"
+    }
+  ],
+  "framework": {
+    "central_opposition": {
+      "pair_1": {
+        "name": "Âm vs Dương (Mẹ vs Cha / Chẵn vs Lẻ)",
+        "am": "Dòng Mẫu/Mẹ/Nữ thần: số chẵn (Tứ vị Thánh Mẫu, Thập nhị Chầu Bà, Thập nhị Vương Cô). Tháng 3 giỗ Mẹ.",
+        "duong": "Dòng Vua Cha/Nam thần: số lẻ (Ngũ vị Quan lớn, Thập vị Ông Hoàng). Tháng 8 giỗ Cha."
+      },
+      "pair_2": {
+        "name": "Bản địa vs Ngoại lai (Tiếp biến)",
+        "endogenous": "Tín ngưỡng thờ Mẹ Lúa/tự nhiên, cơ tầng mẫu hệ",
+        "exogenous": "Vay mượn Đạo giáo TQ (Tam quan → Tam phủ, nữ quyền hóa), Phật giáo (Tiền Phật Hậu Mẫu), Ấn Độ giáo (Chăm)"
+      },
+      "pair_3": {
+        "name": "Đời sống trần tục vs Kiếp sau",
+        "dao_mau": "Hướng tới cõi sống thực tại: cầu sức khỏe, tài lộc, may mắn ngay kiếp này",
+        "other_religions": "Phật giáo hướng Niết Bàn kiếp sau, Gia Tô giáo hướng Thiên đường"
+      }
+    },
+    "three_layers": {
+      "layer_1": {"name": "Thờ Nữ thần", "description": "Nhân thần hóa lực lượng tự nhiên (Mẹ Lúa, Bà Thủy, Bà Hỏa). Nguyên sơ, bản địa, tản mạn."},
+      "layer_2": {"name": "Thờ Mẫu thần", "description": "Nữ thần được cung đình hóa, lịch sử hóa (Ỷ Lan, Âu Cơ, Bà Chúa Kho). Mẫu đều là Nữ thần nhưng không phải Nữ thần nào cũng là Mẫu."},
+      "layer_3": {"name": "Đạo Mẫu Tam/Tứ phủ", "description": "Hình thức cao nhất: hệ thống điện thần chuẩn hóa, thần chủ Liễu Hạnh, nghi lễ Lên đồng. Tiếp thu vũ trụ luận Đạo giáo nhưng đã nữ quyền hóa."}
+    },
+    "three_regional_forms": {
+      "bac_bo": "Mô hình kinh điển, trọn vẹn Tam/Tứ phủ, thần chủ Liễu Hạnh",
+      "trung_bo": "KHÔNG có Tứ phủ, chỉ Nữ thần/Mẫu thần. Hỗn dung Việt-Chăm (Pô Inư Nưgar → Thiên Ya Na)",
+      "nam_bo": "Đa nguyên phức hợp: giao lưu Việt-Chăm-Khơme-Hoa (Bà Chúa Xứ, Bà Đen, Thiên Hậu)"
+    },
+    "positioning": "Đạo Mẫu là tôn giáo dân gian sơ khai, đang chuyển hóa từ tín ngưỡng nguyên thủy. Nghi lễ Lên đồng thuộc loại hình Shaman giáo. Là liệu pháp tâm lý và sân khấu tâm linh."
+  },
+  "concepts": [
+    {
+      "id": "dao_mau",
+      "name_vi": "Đạo Mẫu",
+      "name_en": "Mother Goddess Religion",
+      "domain": "religion",
+      "definition": "Tín ngưỡng bản địa lấy hình tượng người Mẹ (Mẫu) làm thần chủ. Phát triển qua 3 tầng: Thờ Nữ thần → Thờ Mẫu thần → Mẫu Tam/Tứ phủ. Là tôn giáo dân gian sơ khai, hướng tới cầu tài lộc, sức khỏe đời thực.",
+      "key_insight": "Không phải mê tín dị đoan. Là hệ thống có điện thần, vũ trụ luận (Tứ phủ), nghi lễ quy chuẩn (Hầu đồng), cộng đồng tín đồ. Khác tôn giáo cứu thế (Phật, Chúa) vì hướng đời thực không hướng kiếp sau.",
+      "related_concepts": ["tu_phu", "len_dong", "lieu_hanh"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "1-3", "page": "5-6, 20-22, 31-34"}]
+    },
+    {
+      "id": "tu_phu",
+      "name_vi": "Tứ Phủ (Thiên-Địa-Thoải-Nhạc)",
+      "name_en": "Four Palaces cosmology",
+      "domain": "religion",
+      "definition": "Vũ trụ luận chia 4 miền: Thiên (trời/đỏ), Địa (đất/vàng), Thoải (sông biển/trắng), Nhạc (rừng núi/xanh). Vay mượn Tam quan Đạo giáo TQ nhưng đã nữ quyền hóa (Mẫu cai quản thay Nam thần) và sáng tạo thêm Nhạc phủ.",
+      "key_insight": "Việc sáng tạo Nhạc phủ (rừng núi) là nét đặc thù VN, phản ánh gắn bó với dân tộc thiểu số miền núi. Điện thần Tứ phủ phân giới Âm-Dương: dòng nữ số chẵn, dòng nam số lẻ.",
+      "related_concepts": ["dao_mau", "lieu_hanh"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "4", "page": "57-58"}]
+    },
+    {
+      "id": "len_dong",
+      "name_vi": "Lên đồng / Hầu đồng / Hầu bóng",
+      "name_en": "Spirit possession ritual (Shamanism)",
+      "domain": "religion",
+      "definition": "Nghi lễ nhập hồn nhiều lần của thần linh Tứ Phủ vào ông/bà đồng. Thuộc loại hình Shaman giáo. Cấu trúc: nhiều 'giá' (mỗi giá = 1 vị thần), trình tự từ Mẫu → Quan → Chầu → Hoàng → Cô → Cậu → Ngũ Hổ.",
+      "key_insight": "Không phải mê tín/ma quỷ ốp. Là liệu pháp tâm lý (psychotherapy) giải tỏa ẩn ức, đặc biệt cho phụ nữ bị dồn nén trong xã hội Nho giáo. Đồng thời là sân khấu tâm linh tích hợp văn học, âm nhạc, múa, trang phục.",
+      "related_concepts": ["dao_mau", "tu_phu", "chau_van", "can_so"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "5", "page": "81-82, 93-94"}]
+    },
+    {
+      "id": "lieu_hanh",
+      "name_vi": "Thánh Mẫu Liễu Hạnh",
+      "name_en": "Holy Mother Liễu Hạnh",
+      "domain": "religion",
+      "definition": "Thần chủ cao nhất của Đạo Mẫu Tam/Tứ phủ. Hiện thân Mẫu Thượng Thiên (áo đỏ). Xuất hiện muộn (TK 16) nhưng thống nhất hệ thống Mẫu. Mang cá tính con người đời thường, xung đột và thỏa hiệp với Phật giáo (quy y Quan Âm) và Nho giáo.",
+      "key_insight": "Biểu tượng giải phóng phụ nữ khỏi lễ giáo Nho gia. Sự xuất hiện của Liễu Hạnh là nhân tố quyết định nâng tục thờ nữ thần tản mạn lên thành tôn giáo dân gian hoàn chỉnh.",
+      "related_concepts": ["dao_mau", "tu_phu", "tien_phat_hau_mau"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "6", "page": "102-114"}]
+    },
+    {
+      "id": "tien_phat_hau_mau",
+      "name_vi": "Tiền Phật Hậu Mẫu",
+      "name_en": "Buddhism in front, Mother Goddess behind",
+      "domain": "religion",
+      "definition": "Mô thức kiến trúc và tín ngưỡng: phía trước thờ Phật, phía sau thờ Mẫu. Phản ánh sự bù trừ: Phật giáo hướng kiếp sau, Đạo Mẫu hướng đời thực. Đạo Mẫu mượn uy Phật để hợp thức hóa (Quan Âm cứu Liễu Hạnh ở Sòng Sơn).",
+      "key_insight": "Phật Bà Quan Âm (vốn nam thần Ấn Độ) đã bị 'Nữ thần hóa/Mẫu hóa' khi vào Việt Nam — minh chứng cho sức mạnh tiếp biến của Đạo Mẫu.",
+      "related_concepts": ["dao_mau", "lieu_hanh"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "2, 6"}]
+    },
+    {
+      "id": "chau_van",
+      "name_vi": "Chầu văn / Hát văn",
+      "name_en": "Ritual chanting music",
+      "domain": "arts",
+      "definition": "Loại hình âm nhạc/ca hát phục vụ Hầu đồng. Cấu trúc mở, ~30 làn điệu (Bỉ, Miễu, Thống, Phú, Dọc, Cờn, Xá, Hãm, Lưu Thủy, Bỏ bộ...). Hút trọn đa luồng dân ca: chèo, quan họ, ca trù, dân ca miền núi (Xá Thượng).",
+      "key_insight": "Không chỉ là công cụ gọi hồn mà là áng văn học dân gian trữ tình. Tập 2 công bố ~100 bài văn chầu. Cung văn phải ứng tác khớp với điệu múa thần linh — sai nhịp bị phạt.",
+      "related_concepts": ["len_dong", "dao_mau"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "16", "page": "357-358"}, {"source_id": "ndt_daomau2"}]
+    },
+    {
+      "id": "can_so",
+      "name_vi": "Căn / Số / Cơ đày",
+      "name_en": "Spiritual calling / Karmic debt",
+      "domain": "religion",
+      "definition": "Trạng thái rối loạn tâm sinh lý (ốm đau chữa không khỏi, làm ăn thất bát) do dồn nén ẩn ức. Dân gian gọi 'có căn' hoặc bị 'Thánh cơ đày'. Chỉ khi 'ra trình đồng' mới khắc phục được.",
+      "key_insight": "Dưới góc nhìn khoa học: không phải ma quỷ mà là dồn nén ẩn ức. Lên đồng hoạt động như cơ chế tự kỷ ám thị và giải tỏa, giúp người bệnh tái hòa nhập cộng đồng.",
+      "related_concepts": ["len_dong"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "14-15", "page": "324, 348"}]
+    },
+    {
+      "id": "mua_bong_roi",
+      "name_vi": "Múa bóng rỗi",
+      "name_en": "Ritual offering dance (Southern Vietnam)",
+      "domain": "arts",
+      "definition": "Nghi thức múa thiêng dâng cúng Mẫu thần ở Nam Bộ. KHÁC Lên đồng: Lên đồng = thần linh múa (nhập hồn), Múa bóng rỗi = người trần múa dâng thần (xiếc tạp kỹ, shaman mờ nhạt). 'Bà Bóng' phần lớn là nam ái nữ.",
+      "key_insight": "Hiện tượng nam ái nữ làm Bà Bóng không phải lệch lạc mà là nhu cầu tín ngưỡng: Đạo Mẫu tôn thờ Nữ thần nên trung gian tâm linh cần mang tính Nữ. Ở Tiền Giang: 50/54 nghệ nhân là nam ái nữ.",
+      "related_concepts": ["len_dong", "dao_mau"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "14", "page": "322-334"}]
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mc_ndt_len_dong_metin",
+      "title": "Lên đồng là mê tín dị đoan / ma quỷ ốp nhập",
+      "common_belief": "Lên đồng là mê tín dị đoan, bị ma quỷ ốp nhập, cần cấm đoán.",
+      "correction": "Lên đồng là Shaman giáo đặc thù, liệu pháp tâm lý, sân khấu tâm linh. Thần linh (phúc thần) tự nguyện giáng ban lộc, khác hẳn bị tà ma nhập xác.",
+      "evidence": ["Người bị 'cơ đày' sau khi hầu Thánh đã cân bằng tâm lý và tái hòa nhập", "Chỉ trích thái độ miệt thị của Phan Kế Bính, Nhất Lang"],
+      "severity": "vehement",
+      "domains": ["religion"],
+      "related_concepts": ["len_dong", "can_so"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "1, 5, 15", "page": "16, 93-94, 348"}]
+    },
+    {
+      "id": "mc_ndt_dao_mau_cam_doan",
+      "title": "Đạo Mẫu cần bị loại bỏ / cấm đoán",
+      "common_belief": "Đạo Mẫu là tàn dư lạc hậu, cần loại bỏ khỏi đời sống xã hội.",
+      "correction": "Đạo Mẫu chứa hệ giá trị lịch sử (chủ nghĩa yêu nước tâm linh hóa), văn hóa (hát văn, múa thiêng) và đạo đức. Cần 'gạn đục khơi trong', không được loại bỏ.",
+      "evidence": ["Sức sống mãnh liệt của lễ hội Phủ Dầy, đền Kiếp Bạc thu hút hàng vạn người"],
+      "severity": "vehement",
+      "domains": ["religion", "social_response"],
+      "related_concepts": ["dao_mau"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "Thay lời kết", "page": "392-393"}]
+    },
+    {
+      "id": "mc_ndt_dia_phu_am_ty",
+      "title": "Địa phủ là cõi âm ty ma quỷ",
+      "common_belief": "Địa phủ trong Tứ Phủ là cõi âm ty dưới lòng đất, nơi ma quỷ ngự trị.",
+      "correction": "Địa phủ là cõi trần gian ở trên mặt đất, thuộc về đời sống thực tại. Mẫu Địa (áo vàng) cai quản đất đai, mang lại tài lộc, không liên quan cõi chết.",
+      "evidence": ["Thánh Mẫu Liễu Hạnh hóa thân thành Địa Tiên Thánh Mẫu cai quản đời sống trần tục"],
+      "severity": "strong",
+      "domains": ["religion"],
+      "related_concepts": ["tu_phu"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "4", "page": "76, 154"}]
+    },
+    {
+      "id": "mc_ndt_thanh_tran_tu_phu",
+      "title": "Đức Thánh Trần thuộc hệ thống Tứ phủ",
+      "common_belief": "Đức Thánh Trần (Trần Hưng Đạo) là một vị trong hệ thống Tứ phủ.",
+      "correction": "Đức Thánh Trần thuộc Phủ Trần Triều (phủ nhân thần) riêng biệt. Dòng Thanh đồng (thờ Thánh Trần, nam quyền, trừ tà ma Phạm Nhan) độc lập với dòng Đồng cốt (thờ Mẫu, nữ quyền, cầu tài lộc).",
+      "evidence": ["Đền Kiếp Bạc: Thanh đồng xiên lềnh, thắt cổ, xẻ lưỡi cắt dấu mặn — khác hẳn Đồng cốt"],
+      "severity": "strong",
+      "domains": ["religion"],
+      "related_concepts": ["tu_phu", "len_dong"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "4-5", "page": "71-73, 98-99"}]
+    },
+    {
+      "id": "mc_ndt_ba_chua_kho",
+      "title": "Bà Chúa Kho là nhân vật lịch sử giữ kho lương thật",
+      "common_belief": "Bà Chúa Kho là nhân vật lịch sử thời Lý, từng giữ kho lương thực quân đội.",
+      "correction": "Nguồn gốc nguyên thủy là Mẹ Lúa (Rice Mother) → bị 'lịch sử hóa' thành người giữ kho lương → hiện bị 'thương mại hóa' thành Ngân hàng tâm linh.",
+      "evidence": ["Sự tích cực kỳ mâu thuẫn (vợ vua Lý, em gái vua, cô gái nghèo...)", "Mượn chiếc áo lịch sử khoác lên vị thần nông nghiệp"],
+      "severity": "strong",
+      "domains": ["religion"],
+      "related_concepts": ["dao_mau"],
+      "source_refs": [{"source_id": "ndt_daomau1", "page": "174-179"}]
+    },
+    {
+      "id": "mc_ndt_ba_bong_lech_lac",
+      "title": "'Bà Bóng' nam ái nữ là lệch lạc / bệnh hoạn",
+      "common_belief": "Nam giới ái nữ làm Bà Bóng trong múa bóng rỗi là biểu hiện lệch lạc tâm lý.",
+      "correction": "Không phải lệch lạc mà là nhu cầu tín ngưỡng: Đạo Mẫu tôn thờ Nữ thần nên trung gian phải mang tính Nữ. Họ 'nhạy cảm, nhẹ vía', được cộng đồng chấp nhận.",
+      "evidence": ["Tiền Giang: 50/54 nghệ nhân múa bóng rỗi đăng ký là nam ái nữ"],
+      "severity": "mild",
+      "domains": ["religion", "social_organization"],
+      "related_concepts": ["mua_bong_roi"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "14", "page": "323-324"}]
+    },
+    {
+      "id": "mc_ndt_phu_nu_bi_gat",
+      "title": "Phụ nữ cổ truyền bị gạt khỏi đời sống tín ngưỡng",
+      "common_belief": "Trong xã hội Nho giáo, phụ nữ hoàn toàn bị gạt ra khỏi đời sống tâm linh.",
+      "correction": "Phụ nữ mất 'Đình' (không gian nam giới Nho giáo) nhưng làm chủ tuyệt đối ở 'Đền/Phủ/Chùa'. Đền phủ thờ Mẫu là môi trường giao tiếp xã hội của nữ giới, nơi lập 'Hội chư bà'.",
+      "evidence": ["Mô hình Đình = nam giới, Đền/Phủ = nữ giới"],
+      "severity": "vehement",
+      "domains": ["social_organization", "religion"],
+      "related_concepts": ["dao_mau", "lieu_hanh"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "15", "page": "349"}]
+    },
+    {
+      "id": "mc_ndt_ong_ta_ta_than",
+      "title": "'Ông Tà' ở Nam Bộ là tà thần / ác thần",
+      "common_belief": "'Ông Tà' thờ ở Nam Bộ là tà thần, ác thần theo cách hiểu Nho giáo.",
+      "correction": "'Tà' là biến âm từ 'Neak Tà' (thần Thổ địa Khơme), thờ trụ đá (Linga nguyên thủy). Hoàn toàn là phúc thần, dân đến cầu con, cầu sức khỏe.",
+      "evidence": ["Miếu Ông Tà ở Núi Sam và Bà Đen đặt phía trước, thờ trụ đá"],
+      "severity": "strong",
+      "domains": ["religion"],
+      "related_concepts": ["dao_mau"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "12", "page": "283"}]
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "cmp_ndt_dao_mau_dao_giao",
+      "domain": "religion",
+      "vietnam": "Tứ Phủ: 4 phủ (Thiên/Địa/Thủy/Nhạc) do Nữ thần (Thánh Mẫu) cai quản. Sáng tạo thêm Nhạc phủ.",
+      "other_culture": "Tam Quan: 3 cõi (Thiên/Địa/Thủy) do Nam thần cai quản. Không có cõi Nhạc.",
+      "other_culture_name": "Đạo giáo Trung Hoa",
+      "explanation": "Đạo Mẫu vay mượn vũ trụ luận Đạo giáo nhưng đã 'nữ quyền hóa' và sáng tạo thêm Nhạc phủ — nét đặc thù VN phản ánh gắn bó với dân tộc thiểu số miền núi.",
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "2, 4"}]
+    },
+    {
+      "id": "cmp_ndt_dao_mau_phat_giao",
+      "domain": "religion",
+      "vietnam": "Đạo Mẫu: hướng đời thực (cầu tài lộc, sức khỏe kiếp này)",
+      "other_culture": "Phật giáo: hướng kiếp sau (tu nhân tích đức, Niết Bàn)",
+      "other_culture_name": "Phật giáo",
+      "explanation": "Không xung đột mà bù trừ → mô thức 'Tiền Phật Hậu Mẫu'. Quan Âm (vốn nam thần Ấn Độ) bị 'Nữ thần hóa/Mẫu hóa' khi vào VN.",
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "2, 6"}]
+    },
+    {
+      "id": "cmp_ndt_dao_mau_nho_giao",
+      "domain": "religion",
+      "vietnam": "Đạo Mẫu: tôn vinh phụ nữ, giải phóng ẩn ức, phụ nữ làm chủ Đền/Phủ",
+      "other_culture": "Nho giáo: phụ quyền, phụ nữ bị gạt khỏi Đình, tam tòng tứ đức",
+      "other_culture_name": "Nho giáo",
+      "explanation": "Đạo Mẫu là sự phản kháng và bù trừ tâm lý cho nữ giới. Nho giáo tìm cách 'thuần phong mỹ tục hóa' bằng cải biên huyền thoại Liễu Hạnh thành phụ nữ trung hiếu.",
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "6, 15"}]
+    },
+    {
+      "id": "cmp_ndt_len_dong_mua_bong",
+      "domain": "religion",
+      "vietnam": "Lên đồng (Bắc): thần linh múa (nhập hồn), nghiêm ngặt, thiêng liêng",
+      "other_culture": "Múa bóng rỗi (Nam): người trần múa dâng thần, xiếc tạp kỹ, shaman mờ nhạt",
+      "other_culture_name": "Nội bộ VN (Nam Bộ)",
+      "explanation": "Hai lớp văn hóa: Lên đồng mang từ Bắc vào (Tứ phủ), Múa bóng rỗi bản địa giao lưu Chăm-Việt. Càng về Nam, tính quy chuẩn Tứ phủ càng mờ nhạt.",
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "14"}]
+    },
+    {
+      "id": "cmp_ndt_po_inu_nugar_thien_ya_na",
+      "domain": "religion",
+      "vietnam": "Thiên Ya Na / Bà Chúa Ngọc: Mẫu thần Việt hóa, khoác áo Nho/Phật, có chồng con",
+      "other_culture": "Pô Inư Nưgar (Chăm) / Uma (Ấn Độ giáo): Thần Mẹ Xứ Sở, bản địa hóa từ Uma/Shiva",
+      "other_culture_name": "Chăm / Ấn Độ",
+      "explanation": "Chuyển hóa kép: Uma (Ấn) → Pô Inư Nưgar (Chăm) → Thiên Ya Na (Việt). Việt hóa: thay cốt tượng Linga-Yoni bằng tượng Nữ thần xiêm y Việt, biến truyền thuyết.",
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "7-8"}]
+    }
+  ],
+  "symbols": [
+    {
+      "id": "sym_ndt_ngu_ho",
+      "name_vi": "Tranh Ngũ Hổ",
+      "name_en": "Five Tigers painting",
+      "physical_form": "5 con hổ theo màu ngũ hành: Hoàng Hổ (vàng, trung tâm), Hắc Hổ (đen, Bắc), Bạch Hổ (trắng, Tây), Xích Hổ (đỏ, Nam), Thanh Hổ (xanh, Đông)",
+      "yin_yang_meaning": "Ngũ hành tương ứng ngũ phương, biểu tượng sức mạnh bảo hộ Hạ ban",
+      "cultural_meaning": "Tranh dân gian (Đông Hồ, Hàng Trống), đặt ở Hạ ban trong điện thờ Mẫu. Ngũ Hổ là thần linh cấp thấp nhất trong điện thần nhưng mang sức mạnh bảo hộ trần tục.",
+      "related_concepts": ["tu_phu", "dao_mau"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "16"}]
+    }
+  ],
+  "terms": [
+    {
+      "id": "trm_ndt_gia_dong",
+      "term_vi": "Giá đồng (Giá hầu)",
+      "surface_meaning": "Lượt hầu",
+      "cultural_meaning": "Thời lượng 1 chu trình: Thần giáng (nhập) → Làm việc quan (múa, phán truyền, ban lộc) → Thăng (xuất). Mỗi 'giá' ứng với 1 vị thần cụ thể cai trị trên 'cái giá' (thân xác) người hầu.",
+      "differs_from_common": "Không phải 'giá cả' mà là đơn vị tính cấu trúc nghi lễ Lên đồng",
+      "domain": "religion",
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "5", "page": "82"}]
+    },
+    {
+      "id": "trm_ndt_trang_man",
+      "term_vi": "Hầu tráng mạn (Giáng trùm khăn)",
+      "surface_meaning": "Hầu che mặt",
+      "cultural_meaning": "Dành riêng cho 3 giá Thánh Mẫu. Mẫu ở bậc tối cao: 'chỉ giáng chứ không nhập đồng'. Người hầu trùm khăn đỏ phủ diện, không mở mặt, không múa, chỉ chứng giám rồi thăng. Đối lập với 'Giáng mở khăn' (Quan trở xuống).",
+      "differs_from_common": "Khác với giáng đồng thông thường (mở khăn, múa, phán truyền)",
+      "domain": "religion",
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "5", "page": "86"}]
+    },
+    {
+      "id": "trm_ndt_thanh_dong",
+      "term_vi": "Thanh đồng vs Đồng cốt",
+      "surface_meaning": "Hai dòng đồng",
+      "cultural_meaning": "Đồng cốt: dòng thờ Mẫu, cầu tài lộc, tính nữ quyền. Thanh đồng: dòng thờ Đức Thánh Trần, trừ tà ma Phạm Nhan, tính nam quyền, ma thuật nặng (xiên lềnh, thắt cổ, cắt dấu mặn). Hai dòng độc lập, không gộp chung.",
+      "differs_from_common": "Nhiều người gộp chung 2 dòng vào Tứ phủ, tác giả phản bác",
+      "domain": "religion",
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "4-5", "page": "72, 82"}]
+    },
+    {
+      "id": "trm_ndt_thang_tam_thang_ba",
+      "term_vi": "Tháng Tám giỗ Cha, Tháng Ba giỗ Mẹ",
+      "surface_meaning": "Lịch lễ hội",
+      "cultural_meaning": "Mô thức thời gian thiêng: Tháng 3 (cực Dương) → giỗ Mẹ (Âm) để hài hòa (Phủ Dầy). Tháng 8 (cực Âm) → giỗ Cha (Dương) để cân bằng (Kiếp Bạc, Đồng Bằng). Triết lý Âm-Dương cân bằng vũ trụ.",
+      "differs_from_common": "Không chỉ là lịch lễ hội mà phản ánh vũ trụ luận Âm-Dương",
+      "domain": "religion",
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "5", "page": "95"}]
+    }
+  ],
+  "proverbs": [
+    {
+      "id": "prv_ndt_thang_tam_thang_ba",
+      "text_vi": "Tháng Tám giỗ Cha, tháng Ba giỗ Mẹ",
+      "text_en": "Eighth month: Father's death anniversary; Third month: Mother's",
+      "illustrates": "Cặp đối lập Âm-Dương trung tâm của Đạo Mẫu: Cha (Dương/Bát Hải/Thánh Trần) đối xứng Mẹ (Âm/Liễu Hạnh). Phản ánh vũ trụ luận cân bằng.",
+      "domain": "religion",
+      "related_concepts": ["tu_phu", "dao_mau"],
+      "source_refs": [{"source_id": "ndt_daomau1", "chapter": "5", "page": "95"}]
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "version": "0.1.0",
+  "sources": [
+    {
+      "id": "tnt_bansc",
+      "author": "Trần Ngọc Thêm",
+      "title": "Tìm về bản sắc văn hóa Việt Nam",
+      "year": 2001,
+      "type": "book"
+    },
+    {
+      "id": "tnt_coso",
+      "author": "Trần Ngọc Thêm",
+      "title": "Cơ sở văn hóa Việt Nam",
+      "year": 1999,
+      "type": "book"
+    }
+  ],
+
+  "framework": {
+    "central_opposition": {
+      "pole_a": {
+        "name_vi": "Văn hóa gốc nông nghiệp",
+        "aliases": ["Trọng tĩnh", "Trọng âm", "Phương Nam", "Đông Nam"],
+        "traits": ["tổng hợp", "biện chứng", "trọng quan hệ", "chủ quan", "cảm tính", "trọng tình", "trọng văn", "trọng phụ nữ", "dân chủ", "linh hoạt", "dung hợp", "hiếu hòa"],
+        "geography": "Đồng bằng, ẩm, nóng, sông nước",
+        "economy": "Trồng trọt lúa nước, định cư",
+        "representative": "Việt Nam, Đông Nam Á cổ đại"
+      },
+      "pole_b": {
+        "name_vi": "Văn hóa gốc du mục",
+        "aliases": ["Trọng động", "Trọng dương", "Phương Bắc", "Tây Bắc"],
+        "traits": ["phân tích", "siêu hình", "trọng yếu tố", "khách quan", "lý tính", "trọng lý", "trọng võ", "trọng nam giới", "quân chủ", "nguyên tắc", "độc tôn", "hiếu thắng"],
+        "geography": "Đồng cỏ, khô, lạnh",
+        "economy": "Chăn nuôi, du cư",
+        "representative": "Phương Tây, Bắc Trung Hoa"
+      },
+      "china_position": "Nước đôi: dương ở trong âm — du mục gốc kết hợp nông nghiệp",
+      "vietnam_position": "Âm ở trong âm — nông nghiệp điển hình nhất"
+    },
+    "culture_system": {
+      "description": "Ma trận 4 tiểu hệ × 2 vi hệ",
+      "subsystems": [
+        {
+          "name": "Văn hóa nhận thức",
+          "components": ["Nhận thức vũ trụ (Âm Dương, Ngũ Hành, lịch)", "Nhận thức con người (y học, tướng số)"]
+        },
+        {
+          "name": "Văn hóa tổ chức cộng đồng",
+          "components": ["Đời sống tập thể (quốc gia, nông thôn, đô thị)", "Đời sống cá nhân (tín ngưỡng, phong tục, nghệ thuật)"]
+        },
+        {
+          "name": "Văn hóa ứng xử với môi trường tự nhiên",
+          "components": ["Tận dụng (ăn uống)", "Đối phó (mặc, ở, đi lại)"]
+        },
+        {
+          "name": "Văn hóa ứng xử với môi trường xã hội",
+          "components": ["Tận dụng (giao lưu, tiếp biến)", "Đối phó (quân sự, ngoại giao)"]
+        }
+      ]
+    },
+    "historical_layers": [
+      {
+        "layer": 1,
+        "name": "Lớp văn hóa bản địa",
+        "periods": ["Tiền sử", "Văn Lang - Âu Lạc"],
+        "script": "Văn tự cổ"
+      },
+      {
+        "layer": 2,
+        "name": "Lớp văn hóa giao lưu với Trung Hoa và khu vực",
+        "periods": ["Chống Bắc thuộc", "Đại Việt"],
+        "script": "Chữ Hán, chữ Nôm"
+      },
+      {
+        "layer": 3,
+        "name": "Lớp văn hóa giao lưu với phương Tây",
+        "periods": ["Đại Nam", "Hiện đại"],
+        "script": "Chữ Quốc ngữ"
+      }
+    ]
+  },
+
+  "concepts": [
+    {
+      "id": "am_duong",
+      "name_vi": "Âm Dương",
+      "name_en": "Yin-Yang (Southern origin)",
+      "domain": "philosophy",
+      "definition": "Khái niệm trừu tượng xuất phát từ ý niệm phồn thực của cư dân nông nghiệp, bắt nguồn từ 2 cặp đối lập: mẹ-cha (sinh con người) và đất-trời (sinh hoa màu). Từ Âm (yin) gốc từ ina/yana = Mẹ; Dương (yang) gốc từ yang/giàng = Trời/Thần trong ngôn ngữ Đông Nam Á cổ.",
+      "key_insight": "Không phải phát minh của Trung Hoa mà của cư dân nông nghiệp phương Nam. Bằng chứng ngôn ngữ học: yin gốc từ tiếng Chăm cổ/Giarai 'ina' (mẹ), yang từ tiếng Mường/Tây Nguyên 'giàng' (trời).",
+      "related_concepts": ["ngu_hanh", "phon_thuc", "lich_am_duong"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "II", "section": "§5.1"}]
+    },
+    {
+      "id": "ngu_hanh",
+      "name_vi": "Ngũ Hành",
+      "name_en": "Five Phases (not Five Elements)",
+      "domain": "philosophy",
+      "definition": "5 loại vận động / 5 mối quan hệ (hành = sự vận động). Không phải vật chất tĩnh tại. Gồm Thủy-Hỏa-Mộc-Kim-Thổ với Thổ ở trung tâm, mang tư duy số lẻ và biện chứng của phương Nam.",
+      "key_insight": "Dịch 'Five Elements' là sai bản chất. Ngũ Hành dùng số lẻ (5), có trung tâm (Thổ), có quan hệ tương sinh tương khắc — đặc trưng tư duy nông nghiệp. Bát Quái dùng số chẵn (8), không trung tâm — tư duy du mục.",
+      "related_concepts": ["am_duong", "bat_quai", "ha_do_lac_thu"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "II", "section": "§6.2"}]
+    },
+    {
+      "id": "lich_am_duong",
+      "name_vi": "Lịch Âm Dương",
+      "name_en": "Lunisolar Calendar",
+      "domain": "cognition",
+      "definition": "Hệ lịch kết hợp chu kỳ mặt trăng (tháng) và mặt trời (24 tiết khí), dùng tháng nhuận để đồng bộ. Phục vụ nông nghiệp lúa nước: theo dõi thủy triều, mùa vụ.",
+      "key_insight": "Không phải 'lịch âm' — đó là tên gọi sai. Đây là lịch ÂM DƯƠNG, kết hợp cả mặt trăng lẫn mặt trời. Hệ Can Chi (12 con giáp) có nguồn gốc ngôn ngữ Đông Nam Á cổ, không phải Trung Hoa.",
+      "related_concepts": ["am_duong", "can_chi"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "II", "section": "§8.1"}]
+    },
+    {
+      "id": "tinh_cong_dong",
+      "name_vi": "Tính cộng đồng",
+      "name_en": "Communality",
+      "domain": "social_organization",
+      "definition": "Đặc trưng làng xã nhấn mạnh sự đồng nhất (cùng họ, cùng làng). Sinh ra đùm bọc, đoàn kết nhưng cũng tạo thói dựa dẫm, đố kỵ cào bằng.",
+      "key_insight": "Cộng đồng và tự trị là hai mặt đối lập tạo nên MỌI thói hư lẫn đức tốt của người Việt — không thể chỉ ca ngợi mà bỏ qua mặt trái.",
+      "related_concepts": ["tinh_tu_tri", "lang_xa"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "III", "section": "§10.6"}]
+    },
+    {
+      "id": "tinh_tu_tri",
+      "name_vi": "Tính tự trị",
+      "name_en": "Autonomy",
+      "domain": "social_organization",
+      "definition": "Đặc trưng làng xã nhấn mạnh sự khác biệt (làng nào biết làng ấy). Sinh ra tự lập nhưng cũng tạo óc tư hữu, bè phái, cục bộ, gia trưởng.",
+      "key_insight": "Phép vua thua lệ làng — tính tự trị mạnh đến mức luật quốc gia phải nhượng bộ.",
+      "related_concepts": ["tinh_cong_dong", "lang_xa", "nop_cheo"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "III", "section": "§10.6"}]
+    },
+    {
+      "id": "dung_hop",
+      "name_vi": "Dung hợp",
+      "name_en": "Syncretism / Adaptive integration",
+      "domain": "social_response",
+      "definition": "Kết hợp giữa Tổng hợp (ghép nhiều yếu tố) và Linh hoạt (biến đổi cái ngoại lai cho phù hợp bản địa). Đỉnh cao là Tích hợp — tổng hợp nhuần nhuyễn trên nền dân tộc vững chắc (VD: tư tưởng Hồ Chí Minh).",
+      "key_insight": "Đây là vũ khí sắc bén nhất của văn hóa Việt: không bài xích cũng không sao chép — mà biến đổi cái ngoại lai thành của mình.",
+      "related_concepts": ["am_duong", "phat_giao_vn", "nho_giao_vn"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "VI", "section": "§26.2"}]
+    },
+    {
+      "id": "phon_thuc",
+      "name_vi": "Tín ngưỡng phồn thực",
+      "name_en": "Fertility worship",
+      "domain": "religion",
+      "definition": "Khát vọng thiêng liêng cầu sinh sôi nảy nở của cư dân nông nghiệp. Thờ sinh thực khí (nõ nường, linga-yoni) và hành vi giao phối. Là cội nguồn trực tiếp của triết lý Âm Dương.",
+      "key_insight": "Không phải thô tục/dâm ô — mà là triết lý sống còn. Từ đây mà Âm Dương được trừu tượng hóa. Trống đồng Đông Sơn chính là biểu tượng phồn thực.",
+      "related_concepts": ["am_duong", "trong_dong", "dao_mau"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "IV", "section": "§13.1"}]
+    },
+    {
+      "id": "dao_mau",
+      "name_vi": "Đạo Mẫu",
+      "name_en": "Mother Goddess worship",
+      "domain": "religion",
+      "definition": "Tín ngưỡng thờ Mẫu — các vị nữ thần tự nhiên (Bà Trời, Mẹ Đất, Bà Thủy, Mẫu Thượng Ngàn). Mạnh đến mức có thể xem là tôn giáo dân tộc đặc biệt.",
+      "key_insight": "Đạo Mẫu là hệ quả tất yếu của tính âm trong văn hóa nông nghiệp. Thần không phải cô gái trẻ đẹp mà luôn là BÀ MẸ — coi trọng khả năng sinh sản. Phong trào Thánh Mẫu Liễu Hạnh (TK16) bùng nổ ngay giữa thời Nho giáo hưng thịnh nhất như sự phản kháng đòi quyền phụ nữ.",
+      "related_concepts": ["mau_he", "phon_thuc", "phat_ba_quan_am"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "III", "section": "§11.3"}]
+    }
+  ],
+
+  "misconceptions": [
+    {
+      "id": "mc_am_duong_chinese",
+      "title": "Âm Dương là phát minh của Trung Hoa",
+      "common_belief": "Thuyết Âm Dương, Ngũ Hành là sản phẩm triết học do người Hoa tộc sáng tạo qua Phục Hi, Thần Nông, Hoàng Đế.",
+      "correction": "Âm Dương và Ngũ Hành là phát minh của cư dân nông nghiệp lúa nước phương Nam (Bách Việt). Chỉ Tứ Tượng và Bát Quái mới là sản phẩm tư duy du mục phương Bắc.",
+      "evidence": [
+        "Ngôn ngữ học: yin gốc từ ina/yana (Mẹ) trong tiếng Chăm cổ, Giarai, Indonesia; yang gốc từ yang/giàng (Trời) trong tiếng Mường, Tây Nguyên",
+        "Ngũ Hành dùng số lẻ (5), có trung tâm Thổ, thiên vị phương Nam/Đông — đặc trưng nông nghiệp",
+        "Bát Quái dùng số chẵn (8), không trung tâm — đặc trưng du mục phân tích",
+        "Vua Nghiêu nhận rùa thần có chữ khoa đẩu từ người Việt Thường, dịch ra thành Quy Dịch"
+      ],
+      "severity": "vehement",
+      "domains": ["philosophy", "cognition"],
+      "related_concepts": ["am_duong", "ngu_hanh"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "II", "section": "§5.1, §6.3, §7.4"}]
+    },
+    {
+      "id": "mc_ngu_hanh_elements",
+      "title": "Ngũ Hành là 5 chất vật chất (Five Elements)",
+      "common_belief": "Dịch Ngũ Hành thành 'Five Elements/Substances', coi Kim-Mộc-Thủy-Hỏa-Thổ là 5 chất vật chất tĩnh tại tạo nên vũ trụ.",
+      "correction": "Hành = sự vận động. Đây là 5 loại vận động, 5 mối quan hệ trừu tượng, không phải vật chất tĩnh.",
+      "evidence": [
+        "Bảng so sánh: Tứ chất phương Tây (tĩnh, phân tích) vs Ngũ Hành phương Đông (động, biện chứng, tương sinh tương khắc)"
+      ],
+      "severity": "strong",
+      "domains": ["philosophy"],
+      "related_concepts": ["ngu_hanh"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "II", "section": "§6.2"}]
+    },
+    {
+      "id": "mc_lich_am",
+      "title": "Gọi lịch truyền thống là 'Lịch Âm'",
+      "common_belief": "Gọi hệ lịch cổ truyền là 'lịch âm', cho rằng nó phản ánh mặt trăng (hành tinh chết) và thiếu chính xác vì có tháng nhuận.",
+      "correction": "Tên đúng là Lịch Âm Dương — kết hợp cả mặt trăng (tháng) và mặt trời (24 tiết khí). Tháng nhuận là cơ chế đồng bộ thiên tài, không phải lỗi.",
+      "evidence": [
+        "Lịch theo mặt trăng để theo dõi thủy triều (quan trọng cho lúa nước)",
+        "24 tiết khí theo mặt trời để định mùa vụ",
+        "19 năm có 7 tháng nhuận = đồng bộ hoàn hảo",
+        "L. de Saussure gọi đây là 'tác phẩm tài tình của trí khôn con người'"
+      ],
+      "severity": "strong",
+      "domains": ["cognition"],
+      "related_concepts": ["lich_am_duong"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "II", "section": "§8.1"}]
+    },
+    {
+      "id": "mc_sinocentrism",
+      "title": "Văn hóa Việt Nam chỉ là phái sinh của Trung Hoa",
+      "common_belief": "Văn hóa Việt Nam là sản phẩm phái sinh, bị đồng hóa và sao chép từ văn hóa Trung Hoa. Phương Nam là vùng man di cho đến khi người Hán khai hóa.",
+      "correction": "Phương Nam (Đông Nam Á cổ/Bách Việt) đã có nền văn minh nông nghiệp lúa nước rực rỡ từ trước CN. Chính phương Nam đã tác động ngược lên phương Bắc, bồi đắp văn minh Hoa Hạ.",
+      "evidence": [
+        "Lúa nước, tục uống trà, nghề tằm tang truyền từ Nam lên Bắc",
+        "Âm Dương, Ngũ Hành, Hà Đồ Lạc Thư có nguồn gốc phương Nam",
+        "12 con giáp có từ nguyên Đông Nam Á (Sửu từ kluu = trâu, Thìn từ đìn = rùa/ba ba)",
+        "Trống đồng Đông Sơn, nghề đúc đồng phát nguyên từ Nam Á",
+        "Thần Nông, Bàn Cổ, Nữ Oa, Rồng đều có nguồn gốc phương Nam",
+        "Đũa là công cụ Đông Nam Á — TQ cổ đại ăn bốc bằng tay"
+      ],
+      "severity": "vehement",
+      "domains": ["philosophy", "social_response"],
+      "related_concepts": ["am_duong", "ngu_hanh", "lich_am_duong"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "I", "section": "§3.4"}]
+    },
+    {
+      "id": "mc_nam_ton_nu_ti",
+      "title": "'Trọng nam khinh nữ' là truyền thống Việt Nam",
+      "common_belief": "Từ ngàn xưa xã hội Việt Nam đã trọng nam khinh nữ, phụ nữ chịu luân lý Tam tòng, không có bóng phụ nữ nơi đình trung.",
+      "correction": "Trọng nam khinh nữ là sản phẩm NGOẠI LAI du nhập từ văn hóa du mục Trung Hoa. Văn hóa bản địa Việt Nam vốn mang đậm mẫu hệ, cực kỳ tôn trọng phụ nữ. Cái 'ngàn xưa' đó thực chất chỉ vài thế kỷ từ Hậu Lê.",
+      "evidence": [
+        "Ngôn ngữ: từ 'cái' (mẹ) = to lớn, quan trọng (sông cái, đường cái, ngón cái)",
+        "Luật Hồng Đức: con gái thừa kế ngang con trai, vợ có quyền ly hôn",
+        "Dân gian phản kháng: 'Ba đồng một mớ đàn ông', 'Lệnh ông không bằng cồng bà'",
+        "Tam bất khả xuất (3 trường hợp không được bỏ vợ) do nhân dân tạo ra để bảo vệ phụ nữ",
+        "Thánh Mẫu Liễu Hạnh bùng nổ TK16 ngay giữa Nho giáo cực thịnh",
+        "Mẫu hệ còn tồn tại ở Chăm, Êđê, Giarai"
+      ],
+      "severity": "vehement",
+      "domains": ["social_organization", "customs"],
+      "related_concepts": ["mau_he", "dao_mau"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "I", "section": "§2.3.4 và III §11.3"}]
+    },
+    {
+      "id": "mc_nho_giao_yeu_nuoc",
+      "title": "Nho giáo sinh ra tinh thần yêu nước Việt Nam",
+      "common_belief": "Ý thức yêu nước, tinh thần dân tộc Việt Nam có nguồn gốc từ Nho giáo ('trung quân ái quốc').",
+      "correction": "Tinh thần yêu nước là sản phẩm NỘI SINH từ cơ cấu Làng-Nước nông nghiệp. Nho giáo gốc coi nhẹ quốc gia, chỉ trọng dòng họ và thiên hạ. Người Việt CHỦ ĐỘNG cải biến, buộc 'trung quân' gắn với 'ái quốc'.",
+      "evidence": [
+        "Trần Khuê: 'Đừng bao giờ quy ý thức yêu nước cho Nho giáo'",
+        "Nho gia TQ như Ngũ Tử Tư sẵn sàng bán nước trả thù nhà",
+        "Người Việt sẵn sàng lật đổ vua (nhà Nguyễn đầu hàng) để cứu nước",
+        "Hồ Chí Minh phạm 'bất hiếu' theo chuẩn Nho giáo (đi xa khi cha già, không sinh con) để đi cứu nước"
+      ],
+      "severity": "vehement",
+      "domains": ["religion", "social_response"],
+      "related_concepts": ["nho_giao_vn", "tinh_cong_dong"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "VI", "section": "§23.3"}]
+    },
+    {
+      "id": "mc_cham_ban_sao",
+      "title": "Văn hóa Chăm chỉ là bản sao của Ấn Độ",
+      "common_belief": "Gọi khu vực là 'Indochine' (Ấn Độ-Trung Hoa), cho rằng Champa thụ động sao chép văn hóa Ấn Độ.",
+      "correction": "Nguồn bản địa và khu vực mới giữ vai trò quan trọng. Chất nông nghiệp và mẫu hệ bản địa đã cải biến hoàn toàn tôn giáo Ấn Độ.",
+      "evidence": [
+        "Linga Ấn Độ chỉ là sinh thực khí nam; Linga Chăm thành khối 2-3 phần Linga-Yoni (chày-cối) = âm dương hòa hợp",
+        "Bàlamôn Ấn Độ là phụ hệ; Chăm vẫn giữ mẫu hệ, thờ Quốc Mẫu Pô Yan Ina Nưgar"
+      ],
+      "severity": "strong",
+      "domains": ["religion", "social_response"],
+      "related_concepts": ["dung_hop", "phon_thuc", "mau_he"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "VI", "section": "§21.3"}]
+    },
+    {
+      "id": "mc_phon_thuc_tho_tuc",
+      "title": "Tín ngưỡng phồn thực là thô tục, dâm ô",
+      "common_belief": "Thờ sinh thực khí (nõ nường, linga) hay tượng nam nữ giao phối là thô tục, dâm ô.",
+      "correction": "Tín ngưỡng phồn thực là khát vọng thiêng liêng của cư dân nông nghiệp — cầu mùa màng tươi tốt, con cháu đông đúc. Là cội nguồn trực tiếp của triết lý Âm Dương.",
+      "evidence": [
+        "Hình chạm nam nữ trên thạp đồng Đào Thịnh",
+        "Tục giã cối đón dâu (chày cối = nõ nường)",
+        "Trò cướp cầu, tung còn đều mang ý nghĩa phồn thực",
+        "Tháp Chăm cấu trúc Linga-Yoni"
+      ],
+      "severity": "strong",
+      "domains": ["religion", "customs"],
+      "related_concepts": ["phon_thuc", "am_duong"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "IV", "section": "§13.1"}]
+    },
+    {
+      "id": "mc_nghe_thuat_tho_so",
+      "title": "Điêu khắc đình làng có trình độ thấp kém",
+      "common_belief": "Chạm khắc đình làng VN ngô nghê, sai tỷ lệ, vi phạm luật viễn cận — trình độ hạn chế.",
+      "correction": "Nghệ thuật VN tuân theo nguyên lý 'tả thần' (biểu trưng, ước lệ), không phải 'tả thực' phương Tây. Lược bỏ và sai tỷ lệ là thủ pháp CÓ CHỦ Ý nhấn mạnh nội tâm.",
+      "evidence": [
+        "Bức 'Trai gái đùa vui' đình Hương Lộc: nét đục thô nhưng diễn tả tinh tế 4 thế giới nội tâm (si tình, ngượng ngùng, lúng túng, bạo dạn)",
+        "Thủ pháp 'nhìn xuyên vật thể', 'hai góc nhìn' trên trống đồng"
+      ],
+      "severity": "strong",
+      "domains": ["arts"],
+      "related_concepts": ["ta_than"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "IV", "section": "§17.2"}]
+    },
+    {
+      "id": "mc_nop_cheo_hu_tuc",
+      "title": "Tục nộp cheo là hủ tục bóc lột phong kiến",
+      "common_belief": "Phân biệt dân chính cư - dân ngụ cư và tục nộp cheo chỉ là hủ tục bóc lột của phong kiến.",
+      "correction": "Đây là sản phẩm cơ chế văn hóa nông nghiệp làng xã (tính tự trị). Cheo là phương tiện kinh tế hạn chế di cư, duy trì ổn định làng xã.",
+      "evidence": [
+        "Lấy vợ ngoài làng phải nộp 'cheo ngoại' nặng gấp đôi 'cheo nội'",
+        "Dân ngụ cư bị tước quyền lợi đình chung để răn đe người bỏ làng"
+      ],
+      "severity": "strong",
+      "domains": ["social_organization", "customs"],
+      "related_concepts": ["tinh_tu_tri", "lang_xa"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "III", "section": "§10.5 và IV §14.1"}]
+    },
+    {
+      "id": "mc_trai_phai",
+      "title": "'Bên phải tốt hơn bên trái' là giá trị tuyệt đối",
+      "common_belief": "Bên Phải = đúng đắn, lẽ phải; Bên Trái = sai, tả đạo. Đây là quy luật phổ quát.",
+      "correction": "Ban đầu văn hóa nông nghiệp phương Nam CÓI TRỌNG bên Trái (Đông/Âm/Nữ). Chỉ khi du mục phương Bắc (trọng Dương/Nam) áp đảo, bên Trái mới bị biến thành nghĩa xấu.",
+      "evidence": [
+        "Dấu vết ngôn ngữ cổ: 'tay chiêu', 'đăm chiêu'",
+        "Nghi lễ cổ đại: công chúa/quan văn đứng bên trái, hoàng tử/quan võ bên phải",
+        "'Nam tả nữ hữu' là giai đoạn trung gian"
+      ],
+      "severity": "strong",
+      "domains": ["philosophy", "linguistics"],
+      "related_concepts": ["am_duong"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "II", "section": "§5.3"}]
+    },
+    {
+      "id": "mc_viet_chay_vuot",
+      "title": "Chữ 'Việt' có nghĩa là 'chạy vượt'",
+      "common_belief": "Dựa trên chữ Hán 越 (có bộ tẩu = chạy), 'Việt' có nghĩa là 'chạy vượt', di cư.",
+      "correction": "'Việt' là tên gọi một loại rìu đồng lưỡi xéo — công cụ kiêm vũ khí đặc thù của người Việt cổ.",
+      "evidence": [
+        "Từ 'phủ việt' = búa rìu trong ngôn ngữ lịch sử",
+        "Khảo cổ: rất nhiều rìu đồng hình tứ giác tại địa bàn Bách Việt",
+        "Chữ Việt nguyên thủy là hình vẽ mô phỏng cái rìu"
+      ],
+      "severity": "strong",
+      "domains": ["linguistics"],
+      "related_concepts": [],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "I", "section": "§3.2"}]
+    },
+    {
+      "id": "mc_luc_phu_ngu_tang",
+      "title": "Ngũ tạng ngũ phủ là các cơ quan giải phẫu cụ thể",
+      "common_belief": "Đồng nhất thận = quả cật, tâm = quả tim, can = lá gan theo giải phẫu học phương Tây.",
+      "correction": "Ngũ tạng ngũ phủ là những 'nhóm chức năng' trừu tượng hoạt động theo Ngũ Hành. Cơ quan cụ thể chỉ là đại diện tiêu biểu.",
+      "evidence": [
+        "Thận chủ nước, tàng tinh, coi sóc phát dục — không chỉ là 'quả cật'",
+        "Tâm chủ huyết mạch, chứa thần minh — không chỉ là 'quả tim'",
+        "Đông y lấy cái vô hình làm chủ cái hữu hình"
+      ],
+      "severity": "mild",
+      "domains": ["cognition"],
+      "related_concepts": ["ngu_hanh"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "II", "section": "§9.1"}]
+    }
+  ],
+
+  "symbols": [
+    {
+      "id": "sym_trong_dong",
+      "name_vi": "Trống đồng Đông Sơn",
+      "name_en": "Dong Son bronze drum",
+      "physical_form": "Nhạc cụ bằng đồng phát triển từ chiếc cối giã gạo. Tâm mặt trống có hình mặt trời, xen kẽ tia sáng là hình lá có khe.",
+      "yin_element": "Khe lá = sinh thực khí nữ; mặt trống = âm",
+      "yang_element": "Tia mặt trời = sinh thực khí nam; chày đâm = dương",
+      "yin_yang_meaning": "Đâm chày xuống mặt trống = hành vi giao phối nghi lễ. Tiếng trống = tiếng sấm cầu mưa.",
+      "cultural_meaning": "Biểu tượng toàn diện nhất của tín ngưỡng phồn thực. Nghề đúc đồng phát nguyên từ Nam Á, không phải Trung Hoa.",
+      "related_concepts": ["phon_thuc", "am_duong"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "IV", "section": "§13.1"}]
+    },
+    {
+      "id": "sym_rong_tien",
+      "name_vi": "Con Rồng cháu Tiên",
+      "name_en": "Dragon and Fairy ancestors",
+      "physical_form": "Vật tổ cặp đôi: Rồng (từ cá sấu/rắn) và Tiên (chim/phương Nam).",
+      "yin_element": "Tiên (chim) = Phương Nam / Âm",
+      "yang_element": "Rồng (cá sấu/rắn) = Phương Đông / Dương",
+      "yin_yang_meaning": "Vật tổ là CẶP ĐÔI trừu tượng, không phải con vật đơn lẻ — khác phương Tây (đại bàng, sói).",
+      "cultural_meaning": "Tư duy lưỡng phân lưỡng hợp. Cá sấu ác → rồng hiền = tính hiếu hòa nông nghiệp. Rồng gốc Đông Nam Á, không phải Trung Hoa.",
+      "related_concepts": ["am_duong", "phon_thuc"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "II", "section": "§5"}]
+    },
+    {
+      "id": "sym_trau_cau",
+      "name_vi": "Trầu cau",
+      "name_en": "Betel and areca",
+      "physical_form": "Quả cau, lá trầu, vôi — nhai nhổ bã.",
+      "yin_element": "Vôi (chất đá) = Đất (âm)",
+      "yang_element": "Cây cau vươn cao = Trời (dương)",
+      "yin_yang_meaning": "Dây trầu mọc từ đất quấn thân cau = trung gian hòa hợp. Tổng hợp biện chứng tạo chất kích thích.",
+      "cultural_meaning": "Biểu tượng giao tiếp ('miếng trầu là đầu câu chuyện'), tình cảm và hôn nhân.",
+      "related_concepts": ["am_duong"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "V", "section": "§18"}]
+    },
+    {
+      "id": "sym_dua",
+      "name_vi": "Đôi đũa",
+      "name_en": "Chopsticks",
+      "physical_form": "Hai thanh tre/gỗ nhỏ dùng ăn.",
+      "yin_element": "Cặp đôi (vợ chồng như đũa có đôi)",
+      "yang_element": "Đa năng linh hoạt (gắp, và, xé, dầm, vét)",
+      "yin_yang_meaning": "Tư duy tổng hợp biện chứng — một công cụ làm được mọi thứ.",
+      "cultural_meaning": "Đối lập dao-thìa-dĩa phương Tây (phân tích, chia chức năng). Đũa là phát minh Đông Nam Á — TQ cổ đại ăn bốc tay, chỉ dùng đũa khi thôn tính phương Nam.",
+      "related_concepts": ["am_duong", "dung_hop"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "V", "section": "§18"}]
+    },
+    {
+      "id": "sym_dat_nuoc",
+      "name_vi": "Đất Nước",
+      "name_en": "Country (lit. Earth-Water)",
+      "physical_form": "Ghép từ Đất (đặc, tĩnh) và Nước (lỏng, động).",
+      "yin_element": "Nước = Mẹ / Âm",
+      "yang_element": "Đất/Núi = Cha / Dương",
+      "yin_yang_meaning": "Quốc gia = khối âm dương hài hòa. Do VN thiên âm tính, một chữ 'Nước' đủ đại diện cho tổ quốc.",
+      "cultural_meaning": "Khác 'country' (đếm đất), 'nation' (sinh ra), '国家' (nhà nước). Người Việt gọi tổ quốc bằng 2 yếu tố tự nhiên cơ bản nhất, phản ánh sông nước Đông Nam Á.",
+      "related_concepts": ["am_duong"],
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "III", "section": "§11"}]
+    }
+  ],
+
+  "terms": [
+    {
+      "id": "t_cai",
+      "term_vi": "Cái",
+      "surface_meaning": "Từ chỉ đồ vật (cái bát, cái nhà) hoặc giống cái",
+      "cultural_meaning": "Gốc nghĩa là 'mẹ' (con dại cái mang). Do văn hóa nông nghiệp đề cao người mẹ, chuyển nghĩa thành 'to lớn, quan trọng, chủ yếu': sông cái, đường cái, cột cái, ngón cái, đũa cái.",
+      "differs_from_common": "Không phải từ chỉ đồ vật ngẫu nhiên — mà phản ánh truyền thống mẫu hệ ẩn trong ngôn ngữ hàng ngày.",
+      "domain": "linguistics",
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "I", "section": "§2.3.4"}]
+    },
+    {
+      "id": "t_dat_nuoc",
+      "term_vi": "Đất Nước",
+      "surface_meaning": "Quốc gia, lãnh thổ",
+      "cultural_meaning": "Cặp âm dương: Đất/Núi (cha) + Nước (mẹ). Phản ánh không gian sinh tồn sông nước. Một chữ 'Nước' đủ đại diện tổ quốc vì VN thiên âm tính.",
+      "differs_from_common": "Không chỉ là cách nói thông thường — mà chứa triết lý âm dương và bản chất văn hóa sông nước.",
+      "domain": "philosophy",
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "III", "section": "§11"}]
+    },
+    {
+      "id": "t_tieng",
+      "term_vi": "Tiếng",
+      "surface_meaning": "Âm thanh, ngôn ngữ (tiếng Việt)",
+      "cultural_meaning": "Chuyển nghĩa: ngôn ngữ → sản phẩm lời nói → danh dự, uy tín (tiếng tăm, tai tiếng, nổi tiếng). Phản ánh văn hóa trọng danh dự.",
+      "differs_from_common": "Chuỗi chuyển nghĩa cho thấy người Việt coi lời nói = nhân cách = danh dự.",
+      "domain": "linguistics",
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "IV", "section": "§15.1"}]
+    },
+    {
+      "id": "t_dong_bao",
+      "term_vi": "Đồng bào",
+      "surface_meaning": "Cùng một nước, cùng dân tộc",
+      "cultural_meaning": "Nghĩa đen: sinh ra từ cùng một bọc trứng (truyền thuyết Âu Cơ). Mở rộng tính đồng nhất từ làng xã ra quốc gia.",
+      "differs_from_common": "Không phải từ trừu tượng — mà gắn với huyền thoại nguồn gốc, biến toàn dân thành anh em ruột.",
+      "domain": "social_organization",
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "III", "section": "§10"}]
+    },
+    {
+      "id": "t_chieu_dam",
+      "term_vi": "Chiêu - Đăm (Trái - Phải)",
+      "surface_meaning": "Phương hướng không gian",
+      "cultural_meaning": "Chiêu (Trái/Đông/Âm) ban đầu được coi trọng hơn Đăm (Phải/Tây/Dương). Bị đảo ngược khi du mục phương Bắc áp đảo.",
+      "differs_from_common": "Trái-Phải không phải giá trị cố định — mà biến đổi theo lịch sử giao tranh nông nghiệp vs du mục.",
+      "domain": "philosophy",
+      "source_refs": [{"source_id": "tnt_bansc", "chapter": "II", "section": "§5.3"}]
+    }
+  ],
+
+  "proverbs": [
+    {"id": "pv_01", "text_vi": "Lệnh ông không bằng cồng bà", "illustrates": "Truyền thống mẫu hệ — quyền lực thực tế của phụ nữ trong gia đình Việt", "domain": "social_organization", "related_concepts": ["mau_he"]},
+    {"id": "pv_02", "text_vi": "Phép vua thua lệ làng", "illustrates": "Tính tự trị làng xã mạnh đến mức lấn át luật quốc gia", "domain": "social_organization", "related_concepts": ["tinh_tu_tri"]},
+    {"id": "pv_03", "text_vi": "Một bồ cái lí không bằng một tí cái tình", "illustrates": "Nguyên tắc trọng tình cảm lấn át pháp luật — đặc trưng nông nghiệp", "domain": "social_organization", "related_concepts": ["tinh_cong_dong"]},
+    {"id": "pv_04", "text_vi": "Trong rủi có may, trong dở có hay, trong họa có phúc", "illustrates": "Quy luật 'trong âm có dương' — triết lý lạc quan từ Âm Dương", "domain": "philosophy", "related_concepts": ["am_duong"]},
+    {"id": "pv_05", "text_vi": "Không ai giàu ba họ, không ai khó ba đời", "illustrates": "Quy luật âm dương chuyển hóa — tinh thần lạc quan bám vào luật tự nhiên", "domain": "philosophy", "related_concepts": ["am_duong"]},
+    {"id": "pv_06", "text_vi": "Mẹ tròn con vuông", "illustrates": "Biểu tượng vuông-tròn (đất-trời/âm-dương) = sự hoàn thiện vẹn toàn", "domain": "philosophy", "related_concepts": ["am_duong"]},
+    {"id": "pv_07", "text_vi": "Ba đồng một mớ đàn ông, Đem bỏ vào lồng cho kiến nó tha", "illustrates": "Phản kháng dân gian chống tư tưởng trọng nam khinh nữ ngoại lai", "domain": "customs", "related_concepts": ["mau_he"]},
+    {"id": "pv_08", "text_vi": "Nhất vợ nhì trời", "illustrates": "Tàn dư mẫu hệ: vợ đứng trên cả trời trong thứ bậc dân gian", "domain": "social_organization", "related_concepts": ["mau_he"]},
+    {"id": "pv_09", "text_vi": "Lá lành đùm lá rách", "illustrates": "Tính cộng đồng — tinh thần đùm bọc lẫn nhau", "domain": "social_organization", "related_concepts": ["tinh_cong_dong"]},
+    {"id": "pv_10", "text_vi": "Xấu đều hơn tốt lỏi", "illustrates": "Mặt trái cộng đồng: thói đố kỵ, cào bằng, triệt tiêu cá nhân xuất sắc", "domain": "social_organization", "related_concepts": ["tinh_cong_dong"]},
+    {"id": "pv_11", "text_vi": "Trời đánh còn tránh bữa ăn", "illustrates": "Tính thiết thực cực độ — coi trọng ăn uống của dân nông nghiệp", "domain": "cuisine", "related_concepts": []},
+    {"id": "pv_12", "text_vi": "Vợ chồng như đũa có đôi", "illustrates": "Đũa = biểu tượng cặp đôi âm dương trong hôn nhân", "domain": "customs", "related_concepts": ["am_duong"]},
+    {"id": "pv_13", "text_vi": "Miếng trầu là đầu câu chuyện", "illustrates": "Trầu cau = biểu tượng giao tiếp, khởi đầu mọi quan hệ xã hội", "domain": "customs", "related_concepts": []},
+    {"id": "pv_14", "text_vi": "Đói cho sạch, rách cho thơm", "illustrates": "Tính trọng danh dự — giữ phẩm giá dù khó khăn, dẫn đến bệnh sĩ diện", "domain": "social_organization", "related_concepts": []},
+    {"id": "pv_15", "text_vi": "Cha chung không ai khóc", "illustrates": "Mặt trái cộng đồng: thói dựa dẫm, ỷ lại tập thể", "domain": "social_organization", "related_concepts": ["tinh_cong_dong"]}
+  ]
+}
