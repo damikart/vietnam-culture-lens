@@ -51,8 +51,8 @@ export default function ScholarListPage() {
                 <p className="text-sm text-on-surface-muted leading-relaxed line-clamp-2">
                   {scholar.description}
                 </p>
-                <p className="mt-2 text-xs text-on-surface-muted">
-                  {count} mục
+                <p className="mt-3 text-sm text-on-surface-muted group-hover:text-on-surface transition-colors">
+                  Xem {count} mục qua lăng kính này →
                 </p>
               </Link>
             );
