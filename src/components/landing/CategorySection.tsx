@@ -9,7 +9,7 @@ const DISPLAY_LIMIT = 24;
 const CATEGORY_LABELS: Record<LandingCategory, string> = {
   "tuc-ngu": "Tục ngữ",
   "tu-ngu": "Từ ngữ",
-  "tin-nguong": "Tín ngưỡng & Văn hóa",
+  "tin-nguong": "Tín ngưỡng/Phong tục",
 };
 
 const CATEGORY_DESCRIPTIONS: Record<LandingCategory, string> = {
@@ -35,7 +35,9 @@ export function CategorySection({
         <h2 className="text-lg font-semibold text-on-surface">
           {CATEGORY_LABELS[category]}
           <span className="ml-2 text-sm font-normal text-on-surface-muted">
-            {entities.length}
+            {displayed.length === entities.length
+              ? entities.length
+              : `${displayed.length} / ${entities.length}`}
           </span>
         </h2>
         <p className="mt-1 text-sm text-on-surface-muted">

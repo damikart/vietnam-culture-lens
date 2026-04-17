@@ -5,7 +5,7 @@ import { SCHOLARS } from "@/lib/scholars";
 const CATEGORY_LABELS = {
   "tuc-ngu": "Tục ngữ",
   "tu-ngu": "Từ ngữ",
-  "tin-nguong": "Tín ngưỡng",
+  "tin-nguong": "Tín ngưỡng/Phong tục",
 } as const;
 
 export function CrossReferenceCard({ entity }: { entity: IndexedEntity }) {
