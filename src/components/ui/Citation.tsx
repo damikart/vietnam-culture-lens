@@ -7,7 +7,10 @@ export function Citation({ sourceRef }: { sourceRef: SourceRef }) {
 
   const parts = [source.title];
   if (sourceRef.chapter) parts.push(`Ch. ${sourceRef.chapter}`);
-  if (sourceRef.section) parts.push(`§${sourceRef.section}`);
+  if (sourceRef.section) {
+    const sec = sourceRef.section.startsWith("§") ? sourceRef.section : `§${sourceRef.section}`;
+    parts.push(sec);
+  }
   if (sourceRef.page) parts.push(`tr. ${sourceRef.page}`);
 
   return (
