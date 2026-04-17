@@ -1,4 +1,4 @@
-import type { IndexedEntity, Concept, Misconception, Term, CulturalSymbol, Comparison, Proverb } from "@/lib/types";
+import type { IndexedEntity, Concept, Misconception, Term, CulturalSymbol, Comparison, Proverb, CulturalRegion } from "@/lib/types";
 import { SCHOLARS } from "@/lib/scholars";
 import { Citation } from "@/components/ui/Citation";
 
@@ -32,6 +32,8 @@ function getInsightContent(entity: IndexedEntity): {
       };
     case "proverb":
       return { insight: (data as Proverb).illustrates };
+    case "region":
+      return { insight: (data as CulturalRegion).character };
     default:
       return { insight: "" };
   }

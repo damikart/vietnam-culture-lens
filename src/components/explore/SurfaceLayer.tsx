@@ -1,4 +1,4 @@
-import type { IndexedEntity, Concept, Misconception, Term, Proverb, Comparison, CulturalSymbol } from "@/lib/types";
+import type { IndexedEntity, Concept, Misconception, Term, Proverb, Comparison, CulturalSymbol, CulturalRegion } from "@/lib/types";
 
 export function SurfaceLayer({ entity }: { entity: IndexedEntity }) {
   const { type, data, displayName } = entity;
@@ -49,6 +49,27 @@ export function SurfaceLayer({ entity }: { entity: IndexedEntity }) {
         <p className="text-base leading-relaxed text-on-surface-muted">
           {(data as CulturalSymbol).physical_form}
         </p>
+      )}
+
+      {type === "region" && (
+        <div className="space-y-3">
+          <p className="text-sm text-on-surface-muted">
+            {(data as CulturalRegion).boundary}
+          </p>
+          <p className="text-sm">
+            <span className="text-on-surface font-medium">Dân tộc chủ thể: </span>
+            <span className="text-on-surface-muted">
+              {(data as CulturalRegion).dominant_ethnic}
+            </span>
+          </p>
+          <ul className="space-y-1">
+            {(data as CulturalRegion).key_features.map((f, i) => (
+              <li key={i} className="text-sm text-on-surface-muted pl-3 border-l border-white/[0.08]">
+                {f}
+              </li>
+            ))}
+          </ul>
+        </div>
       )}
 
       {type === "comparison" && (

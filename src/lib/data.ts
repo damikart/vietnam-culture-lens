@@ -9,6 +9,7 @@ import type {
   Proverb,
   Comparison,
   CulturalSymbol,
+  CulturalRegion,
   Source,
 } from "./types";
 import { slugify } from "./slugify";
@@ -27,7 +28,7 @@ const scholarFiles: Record<string, ScholarData> = {
 
 function getDisplayName(
   type: EntityType,
-  data: Concept | Misconception | Term | Proverb | Comparison | CulturalSymbol
+  data: Concept | Misconception | Term | Proverb | Comparison | CulturalSymbol | CulturalRegion
 ): string {
   switch (type) {
     case "concept":
@@ -42,6 +43,8 @@ function getDisplayName(
       return `${(data as Comparison).vietnam.slice(0, 40)}…`;
     case "symbol":
       return (data as CulturalSymbol).name_vi;
+    case "region":
+      return (data as CulturalRegion).name_vi;
   }
 }
 
@@ -51,6 +54,8 @@ function getCategoryForType(type: EntityType): LandingCategory {
       return "tuc-ngu";
     case "term":
       return "tu-ngu";
+    case "region":
+      return "tin-nguong";
     default:
       return "tin-nguong";
   }
@@ -58,7 +63,7 @@ function getCategoryForType(type: EntityType): LandingCategory {
 
 function getRelatedConceptIds(
   type: EntityType,
-  data: Concept | Misconception | Term | Proverb | Comparison | CulturalSymbol
+  data: Concept | Misconception | Term | Proverb | Comparison | CulturalSymbol | CulturalRegion
 ): string[] {
   if ("related_concepts" in data && Array.isArray(data.related_concepts)) {
     return data.related_concepts;
@@ -76,7 +81,7 @@ const sourceMap = new Map<string, { source: Source; scholarId: string }>();
 function addEntity(
   scholarId: string,
   type: EntityType,
-  data: Concept | Misconception | Term | Proverb | Comparison | CulturalSymbol
+  data: Concept | Misconception | Term | Proverb | Comparison | CulturalSymbol | CulturalRegion
 ) {
   const rawId = data.id;
   const category = getCategoryForType(type);
@@ -121,6 +126,7 @@ for (const [scholarId, fileData] of Object.entries(scholarFiles)) {
   for (const p of fileData.proverbs || []) addEntity(scholarId, "proverb", p);
   for (const cmp of fileData.comparisons || []) addEntity(scholarId, "comparison", cmp);
   for (const s of fileData.symbols || []) addEntity(scholarId, "symbol", s);
+  for (const r of fileData.cultural_regions || []) addEntity(scholarId, "region", r);
 }
 
 // Build cross-reference map (bidirectional)

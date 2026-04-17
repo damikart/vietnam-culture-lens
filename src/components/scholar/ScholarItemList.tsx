@@ -8,6 +8,7 @@ const TYPE_LABELS: Record<EntityType, string> = {
   proverb: "Tục ngữ",
   comparison: "So sánh văn hóa",
   symbol: "Biểu tượng",
+  region: "Vùng văn hóa",
 };
 
 const TYPE_ORDER: EntityType[] = [
@@ -17,6 +18,7 @@ const TYPE_ORDER: EntityType[] = [
   "proverb",
   "symbol",
   "comparison",
+  "region",
 ];
 
 export function ScholarItemList({ entities }: { entities: IndexedEntity[] }) {

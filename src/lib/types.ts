@@ -108,7 +108,8 @@ export type EntityType =
   | "term"
   | "proverb"
   | "comparison"
-  | "symbol";
+  | "symbol"
+  | "region";
 
 export type LandingCategory = "tuc-ngu" | "tu-ngu" | "tin-nguong";
 
@@ -118,7 +119,8 @@ export type EntityData =
   | Term
   | Proverb
   | Comparison
-  | CulturalSymbol;
+  | CulturalSymbol
+  | CulturalRegion;
 
 export interface IndexedEntity {
   id: string;
