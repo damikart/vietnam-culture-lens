@@ -9,7 +9,7 @@ export function ShareButton({
   title: string;
   text: string;
 }) {
-  const [copied, setCopied] = useState(false);
+  const [status, setStatus] = useState<"idle" | "copied" | "error">("idle");
 
   async function handleShare() {
     const url = window.location.href;
@@ -25,10 +25,11 @@ export function ShareButton({
 
     try {
       await navigator.clipboard.writeText(url);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
+      setStatus("copied");
+      setTimeout(() => setStatus("idle"), 2000);
     } catch {
-      // Clipboard API not available
+      setStatus("error");
+      setTimeout(() => setStatus("idle"), 2000);
     }
   }
 
@@ -37,7 +38,11 @@ export function ShareButton({
       onClick={handleShare}
       className="inline-flex items-center gap-1.5 rounded-lg border border-white/[0.1] bg-surface-card px-3 py-1.5 text-xs font-medium text-on-surface-muted transition-all hover:border-white/[0.2] hover:text-on-surface"
     >
-      {copied ? "Đã sao chép!" : "Chia sẻ"}
+      {status === "copied"
+        ? "Đã sao chép!"
+        : status === "error"
+        ? "Không thể sao chép"
+        : "Chia sẻ"}
     </button>
   );
 }

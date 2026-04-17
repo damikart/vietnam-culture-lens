@@ -38,6 +38,11 @@ export async function generateMetadata({
       locale: "vi_VN",
       siteName: "Lật Văn Hóa",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: entity.displayName,
+      description,
+    },
   };
 }
 

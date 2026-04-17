@@ -8,6 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_BASE_URL ?? "https://lat-van-hoa.vercel.app"
+  ),
   title: "Lật Văn Hóa — Khám phá chiều sâu văn hóa Việt Nam",
   description:
     "Chọn một câu tục ngữ, từ ngữ, hay tín ngưỡng quen thuộc — rồi xem nó được bóc lớp bởi 4 học giả từ 4 góc nhìn khác nhau.",
