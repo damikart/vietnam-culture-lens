@@ -1,5 +1,10 @@
+"use client";
+
+import { useState } from "react";
 import type { IndexedEntity, LandingCategory } from "@/lib/types";
 import { ItemCard } from "./ItemCard";
+
+const DISPLAY_LIMIT = 24;
 
 const CATEGORY_LABELS: Record<LandingCategory, string> = {
   "tuc-ngu": "Tục ngữ",
@@ -20,6 +25,10 @@ export function CategorySection({
   category: LandingCategory;
   entities: IndexedEntity[];
 }) {
+  const [showAll, setShowAll] = useState(false);
+  const displayed = showAll ? entities : entities.slice(0, DISPLAY_LIMIT);
+  const hiddenCount = entities.length - DISPLAY_LIMIT;
+
   return (
     <section>
       <div className="mb-4">
@@ -34,10 +43,18 @@ export function CategorySection({
         </p>
       </div>
       <div className="grid gap-2">
-        {entities.map((entity) => (
+        {displayed.map((entity) => (
           <ItemCard key={entity.id} entity={entity} />
         ))}
       </div>
+      {!showAll && hiddenCount > 0 && (
+        <button
+          onClick={() => setShowAll(true)}
+          className="mt-3 w-full rounded-lg border border-white/[0.08] py-2.5 text-sm text-on-surface-muted transition-all hover:border-white/[0.15] hover:text-on-surface"
+        >
+          Xem thêm {hiddenCount} mục
+        </button>
+      )}
     </section>
   );
 }
