@@ -1,5 +1,5 @@
 import type { IndexedEntity, Concept, Misconception, Term, CulturalSymbol } from "@/lib/types";
-import { getMultiScholarEntities } from "@/lib/data";
+import { getScholarLayers } from "@/lib/data";
 import { BackLink } from "@/components/ui/BackLink";
 import { ScholarBadge } from "@/components/ui/ScholarBadge";
 import { ShareButton } from "@/components/share/ShareButton";
@@ -15,10 +15,10 @@ function getShareText(entity: IndexedEntity): string {
 }
 
 export function ExplorePage({ entity }: { entity: IndexedEntity }) {
-  const rawId = entity.data.id;
-  const multiScholar = getMultiScholarEntities(rawId).filter(
-    (e) => e.id !== entity.id
-  );
+  // Additional scholar layers: same rawId in other scholars + related concepts
+  // authored by other scholars. Target total reveal = 2-4 layers per SPEC.
+  const scholarLayers = getScholarLayers(entity, 3);
+  const excludeFromCrossRefs = new Set(scholarLayers.map((e) => e.id));
 
   return (
     <div className="min-h-screen">
@@ -37,10 +37,10 @@ export function ExplorePage({ entity }: { entity: IndexedEntity }) {
 
         <LayerRevealContainer
           entity={entity}
-          additionalLayers={multiScholar}
+          additionalLayers={scholarLayers}
         />
 
-        <CrossReferenceList entity={entity} />
+        <CrossReferenceList entity={entity} excludeIds={excludeFromCrossRefs} />
       </div>
     </div>
   );

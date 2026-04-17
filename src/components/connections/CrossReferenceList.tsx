@@ -2,8 +2,14 @@ import type { IndexedEntity } from "@/lib/types";
 import { getRelatedEntities } from "@/lib/data";
 import { CrossReferenceCard } from "./CrossReferenceCard";
 
-export function CrossReferenceList({ entity }: { entity: IndexedEntity }) {
-  const related = getRelatedEntities(entity, 4);
+export function CrossReferenceList({
+  entity,
+  excludeIds,
+}: {
+  entity: IndexedEntity;
+  excludeIds?: Set<string>;
+}) {
+  const related = getRelatedEntities(entity, 4, excludeIds);
 
   if (related.length === 0) return null;
 

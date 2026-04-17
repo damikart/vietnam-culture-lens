@@ -275,3 +275,51 @@ export function getAllSlugsForCategory(
 export function getMultiScholarEntities(rawId: string): IndexedEntity[] {
   return idMap.get(rawId) || [];
 }
+
+/**
+ * Additional scholar layers for the Khám phá reveal. Combines:
+ *   1. Same raw ID in other scholar files (same concept, different scholar)
+ *   2. Strictly related concepts authored by other scholars
+ * Returns up to `max` layers to complement the primary scholar — so total
+ * reveal count is 1 (primary) + layers.length, targeting 2-4 per SPEC.
+ */
+export function getScholarLayers(
+  entity: IndexedEntity,
+  max = 3
+): IndexedEntity[] {
+  const seen = new Set<string>([entity.id]);
+  const layers: IndexedEntity[] = [];
+
+  // 1. Same rawId, different scholar — canonical "other scholar's take"
+  for (const e of getMultiScholarEntities(entity.data.id)) {
+    if (seen.has(e.id)) continue;
+    seen.add(e.id);
+    layers.push(e);
+    if (layers.length >= max) return layers;
+  }
+
+  // 2. Strict related concepts from other scholars, sorted by scholar diversity
+  const strict = getStrictRelatedEntities(entity, 50).filter(
+    (e) => e.scholarId !== entity.scholarId
+  );
+  // Prefer one layer per distinct scholar before repeating
+  const scholarsUsed = new Set<string>([entity.scholarId]);
+  const byDistinctScholar: IndexedEntity[] = [];
+  const rest: IndexedEntity[] = [];
+  for (const e of strict) {
+    if (scholarsUsed.has(e.scholarId)) {
+      rest.push(e);
+    } else {
+      scholarsUsed.add(e.scholarId);
+      byDistinctScholar.push(e);
+    }
+  }
+  for (const e of [...byDistinctScholar, ...rest]) {
+    if (seen.has(e.id)) continue;
+    seen.add(e.id);
+    layers.push(e);
+    if (layers.length >= max) return layers;
+  }
+
+  return layers;
+}

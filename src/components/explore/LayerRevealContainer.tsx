@@ -27,6 +27,7 @@ export function LayerRevealContainer({
           key={layer.id}
           entity={layer}
           isRevealed={i < revealedCount}
+          primaryRawId={entity.data.id}
         />
       ))}
 

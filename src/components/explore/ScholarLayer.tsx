@@ -42,9 +42,11 @@ function getInsightContent(entity: IndexedEntity): {
 export function ScholarLayer({
   entity,
   isRevealed,
+  primaryRawId,
 }: {
   entity: IndexedEntity;
   isRevealed: boolean;
+  primaryRawId?: string;
 }) {
   const scholar = SCHOLARS[entity.scholarId];
   const { insight, evidence } = getInsightContent(entity);
@@ -78,6 +80,13 @@ export function ScholarLayer({
             {scholar.field}
           </span>
         </div>
+
+        {primaryRawId && entity.data.id !== primaryRawId && (
+          <p className="text-xs uppercase tracking-wider text-on-surface-muted mb-2">
+            Qua khái niệm liên quan:{" "}
+            <span className="text-on-surface normal-case">{entity.displayName}</span>
+          </p>
+        )}
 
         {entity.type === "misconception" && (
           <div className="rounded-lg border border-emerald-500/20 bg-emerald-500/[0.05] px-4 py-3 mb-3">
