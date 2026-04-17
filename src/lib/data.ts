@@ -176,19 +176,15 @@ export function getRelatedEntities(entity: IndexedEntity, max = 4): IndexedEntit
       if (seen.has(e.id)) continue;
       seen.add(e.id);
       results.push(e);
-      if (results.length >= max) return results;
     }
   }
 
-  // Sort: prefer different categories and scholars
+  // Sort: strongly prefer different category (+2), then different scholar (+1)
   results.sort((a, b) => {
-    const aDiff =
-      (a.category !== entity.category ? 1 : 0) +
-      (a.scholarId !== entity.scholarId ? 1 : 0);
-    const bDiff =
-      (b.category !== entity.category ? 1 : 0) +
-      (b.scholarId !== entity.scholarId ? 1 : 0);
-    return bDiff - aDiff;
+    const score = (e: IndexedEntity) =>
+      (e.category !== entity.category ? 2 : 0) +
+      (e.scholarId !== entity.scholarId ? 1 : 0);
+    return score(b) - score(a);
   });
 
   return results.slice(0, max);
