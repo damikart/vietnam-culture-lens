@@ -16,9 +16,6 @@ export function SurfaceLayer({ entity }: { entity: IndexedEntity }) {
               {(data as Proverb).text_en}
             </p>
           )}
-          <p className="text-base leading-relaxed text-on-surface-muted">
-            {(data as Proverb).illustrates}
-          </p>
         </>
       )}
 
