@@ -165,7 +165,19 @@ export function getEntitiesByScholar(scholarId: string): IndexedEntity[] {
   return allEntities.filter((e) => e.scholarId === scholarId);
 }
 
-export function getRelatedEntities(entity: IndexedEntity, max = 4): IndexedEntity[] {
+/** Extract domain(s) from an entity for fallback matching. */
+function getDomains(entity: IndexedEntity): string[] {
+  const d = entity.data as unknown as Record<string, unknown>;
+  if (Array.isArray(d.domains)) return d.domains.filter((x): x is string => typeof x === "string");
+  if (typeof d.domain === "string") return [d.domain];
+  return [];
+}
+
+/** Strict related: only items reached via `related_concepts` cross-refs, sorted by diversity. */
+export function getStrictRelatedEntities(
+  entity: IndexedEntity,
+  max = 4
+): IndexedEntity[] {
   const rawId = entity.data.id;
   const relatedRawIds = crossRefMap.get(rawId);
   if (!relatedRawIds) return [];
@@ -185,7 +197,6 @@ export function getRelatedEntities(entity: IndexedEntity, max = 4): IndexedEntit
     }
   }
 
-  // Sort: strongly prefer different category (+2), then different scholar (+1)
   results.sort((a, b) => {
     const score = (e: IndexedEntity) =>
       (e.category !== entity.category ? 2 : 0) +
@@ -194,6 +205,56 @@ export function getRelatedEntities(entity: IndexedEntity, max = 4): IndexedEntit
   });
 
   return results.slice(0, max);
+}
+
+/**
+ * Related entities for the Kết nối section. Starts from strict related_concepts,
+ * then falls back to same-domain entities (cross-category preferred) to guarantee
+ * coverage for terms/comparisons/symbols/regions that lack related_concepts.
+ */
+export function getRelatedEntities(
+  entity: IndexedEntity,
+  max = 4,
+  excludeIds: Set<string> = new Set()
+): IndexedEntity[] {
+  const seen = new Set<string>(excludeIds);
+  seen.add(entity.id);
+
+  const results: IndexedEntity[] = [];
+
+  // 1. Strict related_concepts (already sorted by diversity)
+  const strict = getStrictRelatedEntities(entity, 50);
+  for (const e of strict) {
+    if (seen.has(e.id)) continue;
+    seen.add(e.id);
+    results.push(e);
+    if (results.length >= max) return results;
+  }
+
+  // 2. Domain fallback — items sharing a domain, prefer different category/scholar.
+  const entityDomains = new Set(getDomains(entity));
+  if (entityDomains.size > 0) {
+    const fallback = allEntities.filter((e) => {
+      if (seen.has(e.id)) return false;
+      const eDomains = getDomains(e);
+      return eDomains.some((d) => entityDomains.has(d));
+    });
+
+    fallback.sort((a, b) => {
+      const score = (e: IndexedEntity) =>
+        (e.category !== entity.category ? 2 : 0) +
+        (e.scholarId !== entity.scholarId ? 1 : 0);
+      return score(b) - score(a);
+    });
+
+    for (const e of fallback) {
+      seen.add(e.id);
+      results.push(e);
+      if (results.length >= max) return results;
+    }
+  }
+
+  return results;
 }
 
 export function getScholarForSource(sourceId: string): string | undefined {
