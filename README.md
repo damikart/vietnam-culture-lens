@@ -140,8 +140,8 @@ The project is intentionally lightweight. It does not depend on a database in th
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/damikart/lat-van-hoa.git
-cd lat-van-hoa
+git clone https://github.com/damikart/vietnam-culture-lens.git
+cd vietnam-culture-lens
 ```
 
 ### 2. Install dependencies
@@ -229,36 +229,14 @@ The project is designed so more scholars, regions, sources, and languages can be
 
 ---
 
-## Suggested project name
+## Naming
 
-The recommended English-facing name is:
+The project uses the English-facing name **Vietnam Culture Lens** and the Vietnamese title **Lật Văn Hóa**.
 
-## **Vietnam Culture Lens**
-
-Why this name works:
-
-- It is clear to international readers.
-- It immediately communicates that the project is about Vietnamese culture.
-- “Lens” matches the core experience of viewing one cultural item through multiple scholarly perspectives.
-- It can coexist naturally with the Vietnamese title **Lật Văn Hóa**.
-- It is suitable as a repository name, website title, or presentation title.
-
-Recommended naming format:
+Recommended display format:
 
 ```txt
 Vietnam Culture Lens — Lật Văn Hóa
-```
-
-Recommended repository rename:
-
-```txt
-vietnam-culture-lens
-```
-
-Recommended Vietnamese product title:
-
-```txt
-Lật Văn Hóa
 ```
 
 This keeps the project recognizable for Vietnamese readers while making it easier for international readers to understand and remember.
