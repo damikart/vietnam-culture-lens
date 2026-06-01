@@ -9,17 +9,17 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_BASE_URL ?? "https://lat-van-hoa.vercel.app"
+    process.env.NEXT_PUBLIC_BASE_URL ?? "https://vietnam-culture-lens.vercel.app"
   ),
-  title: "Lật Văn Hóa — Khám phá chiều sâu văn hóa Việt Nam",
+  title: "Vietnam Culture Lens — Lật Văn Hóa",
   description:
-    "Chọn một câu tục ngữ, từ ngữ, hay tín ngưỡng quen thuộc — rồi xem nó được bóc lớp bởi 4 học giả từ 4 góc nhìn khác nhau.",
+    "Explore Vietnamese culture through proverbs, words, beliefs, and customs, interpreted through four scholarly lenses.",
   openGraph: {
-    title: "Lật Văn Hóa",
-    description: "Khám phá chiều sâu ẩn trong văn hóa Việt Nam",
+    title: "Vietnam Culture Lens — Lật Văn Hóa",
+    description: "Explore Vietnamese culture through four scholarly lenses.",
     locale: "vi_VN",
     type: "website",
-    siteName: "Lật Văn Hóa",
+    siteName: "Vietnam Culture Lens",
   },
 };
 
